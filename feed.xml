@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Inspire(d) by Chris Weed</title>
+    <link href="https://Kikketer.github.io/feed.xml" rel="self" />
+    <link href="https://Kikketer.github.io" />
+    <updated>2019-01-05T09:28:32-06:00</updated>
+    <author>
+        <name>Chris Weed</name>
+    </author>
+    <id>https://Kikketer.github.io</id>
+
+    <entry>
+        <title>Book of Casting Rev1</title>
+        <author>
+            <name>Chris Weed</name>
+        </author>
+        <link href="https://Kikketer.github.io/book-of-casting-rev1/"/>
+        <id>https://Kikketer.github.io/book-of-casting-rev1/</id>
+            <category term="DIY"/>
+
+        <updated>2018-11-04T11:25:21-06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Kikketer.github.io/media/posts/9/MaraudersMessagesResultBanner.jpg" alt="" />
+                    So we decided to host a Harry Potter slash Halloween birthday party at the house. My wife had some awesome ideas for activites for the kids (around 6yr olds), including getting wands and doing potions. I had my eye on creating the Raspberry Potter project&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://Kikketer.github.io/media/posts/9/MaraudersMessagesResultBanner.jpg" alt="" />
+                <p>So we decided to host a Harry Potter slash Halloween birthday party at the house.  My wife had some awesome ideas for activites for the kids (around 6yr olds), including getting wands and doing potions.</p>
+<p>I had my eye on creating the <a href="https://www.raspberrypotter.net/" target="_blank" rel="noopener noreferrer">Raspberry Potter</a> project ever since we visited the Harry Potter theme park at the Universal theme park in Orlando.  In short that project details how to re-use the insanly expensive wands you purchase at the theme park.  Imagine using the wand to turn on lights in your house or otherwise control smart things in your home!</p>
+<p><img src="https://Kikketer.github.io/media/posts/9/MaraudersMessagesResult.jpg" alt="" width="720" height="2048"></p>
+<p>Anyway the birthday party was a perfect inspiration to get this project moving.  I had about 36 hours to get a fully functional "book of casting" where the kids would wave wands and say the spells to see a result.</p>
+<p>At first I decided to do the full project of having the IR reading camera like they describe in the Raspberry Potter description (thanks <a href="https://makezine.com/projects/raspberry-pi-potter-wand/" target="_blank" rel="noopener noreferrer">Make:magazine</a>) and there was also an improvement on that project by <a href="https://bloggerbrothers.com/2017/12/09/turn-on-a-lamp-with-a-gesture-ir-cam-image-processing/" target="_blank" rel="noopener noreferrer">BloggerBrothers</a>.  I soon realized that:</p>
+<ol>
+<li>I didn't have time to get IR setup and learn Python</li>
+<li>The kids would be a bit crazy and I didn't want to have any margin for fail</li>
+<li>I would be able to secretly push buttons while the kids were occupied with the book</li>
+</ol>
+<p>So with that list, I came up with the following game plan.</p>
+<p><img src="https://Kikketer.github.io/media/posts/9/2018-11-04_10-12-07_000.jpeg" alt="" width="668" height="601"></p>
+<p>Why don't I have a face?  Not sure, but carry on.  The idea is that I can use my phone to push buttons and have things appear on the Book of Casting.  Bonus with this is that I can personalize the messages!  I could have something like `That was a great spell Eli!` instead of just lame generic messages.</p>
+<p>Here's a screenshot of the phone version of the app:</p>
+<p><img src="https://Kikketer.github.io/media/posts/9/2018-11-04_10-04-16_000.jpeg" alt="The &quot;mobile&quot; app" width="403" height="339"></p>
+<p>So my secret button pushing would allow me to select a child's name then push the spell button above.  Based on the spell cast it could produce a themed style message and use the child's name in the message.  The green buttons were intended to be the taught spells (by my wife) and were the ones with the best messages.</p>
+<p>The bottom three buttons were the most fun however.  Lots of funny responses when I wanted to challenge the kids, like if they wouldn't say the words just right or wave wildly then I would push "fail" and it would say things like "That was close Eli, try again".</p>
+<p>The "egg" button allowed us to spiral up to the climax of the Harry Potter adventure where we had to adventure into the Forbidden Forrest and attack a Dimentor.  The egg button spewed up a known order of messages like "Beware of the forrest" and "A wizard has gone missing in the woods", etc...  When the last message of egg appeard we had to "scramble" to get into the woods and save the wizard.</p>
+<p><strong>Constructing the Book</strong></p>
+<p>Building the book itself is pretty self explanitory with some images.  It was a huge mess since I had like an hour to get it all mounted and convincing looking.  The next revision will have a better looking book.T</p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_09-48-12_553.jpeg" ><img src="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_09-48-12_553-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_09-55-54_950.jpeg" ><img src="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_09-55-54_950-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_10-01-55_940.jpeg" ><img src="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_10-01-55_940-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_10-01-50_376.jpeg" ><img src="https://Kikketer.github.io/media/posts/9/gallery/2018-11-04_10-01-50_376-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+</div>
+<p><strong>The Code</strong></p>
+<p>The code behind the whole thing ended up being pretty simple.  I used the tutorial at Sockiet.io to build a simple socket server.  I then also added a POST endpoint that allows the "mobile app" to describe what message to show.</p>
+<p>This was slapped together super quick, so don't judge the code.  I'm not here to impress developers, I'm here to impress a pile of 6 year olds.  You can see the whole thing on <a href="https://github.com/Kikketer/BookOfCasting" target="_blank" rel="noopener noreferrer">github</a>.</p>
+<p>I used a linux laptop to serve as the server.  In theory that server could also be in the raspberry pi, that would be a future enhancement.</p>
+<p><strong>Results</strong></p>
+<p>The kids had an absolutely great time.  At no point did they ever suspect I was pushing buttons, it helped that I was holding my phone behind our little spell cheat sheet we printed up and gave everyone.  They loved how the messages had their names and only after playing with it for 20 minutes did one kid ask about the odd wire hanging out the side.</p>
+<p>If I had to do it again, with unlimited time, I would spend more time on the book itself and still not have the IR portion.  The kids just didn't have the patience to accurately create shapes into a camera.  The future revisions will have the camera but mostly for us adults who want to turn off the lights in the kitchen.</p>
+<p><strong>Next Revision</strong></p>
+<p>Notice the "Rev1" in the title?  Yeah this project is going to keep growing.  My next plan is to get the actual IR portion working.  Then other fun stuff like sound and better animations on the web app.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The Multiverse and Consciousness</title>
+        <author>
+            <name>Chris Weed</name>
+        </author>
+        <link href="https://Kikketer.github.io/the-multiverse-and-consiousness/"/>
+        <id>https://Kikketer.github.io/the-multiverse-and-consiousness/</id>
+            <category term="Thought_Experiment"/>
+            <category term="Quantum"/>
+
+        <updated>2018-05-20T22:38:45-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Kikketer.github.io/media/posts/5/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o_large.jpg" alt="" />
+                    So if you think about it down to the atom, sub-atomic, etc etc level, we (as humans) are really made up of the same stuff the rest of the universe is made of. In essence the universe is thinking about itself! This all started when&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://Kikketer.github.io/media/posts/5/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o_large.jpg" alt="" />
+                <p class="p1"><span class="s1">So if you think about it down to the atom, sub-atomic, etc etc level, we (as humans) are really made up of the same stuff the rest of the universe is made of.  In essence the universe is thinking about itself!</span></p>
+<p>This all started when I watched the fantastic show "<a href="https://app.curiositystream.com/video/1795/can-we-time-travel?utm_adgroup=genius%20by%20stephen%20hawking%20(Hawking)&amp;msclkid=477d23d242091426fa2e79040898d53c&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=S-Titles-Beta&amp;utm_term=%2Bgenius%20%2Bby%20%2Bstephen%20%2Bhawking&amp;utm_content=genius%20by%20stephen%20hawking%20(Hawking)" target="_blank" rel="noopener noreferrer">Genius by Stephen Hawking</a>" which is a great show, I highly reccommend it.</p>
+<p class="p1"><span class="s1">If you don't have time, here's a quick rundown of the double slit experiment.  It shows that by the mere act of observing something you affect the outcome.  In the quantum world this means a particle decides how it'll behave knowing it's being observed!  Whoa...</span></p>
+<p><iframe width="750" height="375" src="https://www.youtube.com/embed/DfPeprQ7oGc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
+<p class="p1"><span class="s1">So now this leads to another type of idea, the fact that the universe exists because a conscious being is able to observe it (otherwise it would all be potential waves).  Then it also spirals up to the idea that each consciousness has it's own version of the universe!</span></p>
+<p class="p1"><span class="s1">Imagine every single electron/particle making probability decisions of how it's going to behave for each consciousness that's observing it.  This means there's basically an infinite amount of universe copies out there, one for each potential outcome of each of these particles.</span></p>
+<p class="p1"><span class="s1">So ok, I'm in my own version of the universe as long as I'm conscious.  What if... I'm unconscious!?</span></p>
+<p><span style="font-size: 1.26563rem; font-weight: bold; letter-spacing: -0.03rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">Do we travel between realities when we are unconscious?</span></p>
+<p class="p1"><span class="s1">Now hold up crazy person...  no wait hear me out.  Imagine the same wave function as seen in the above video.  Each particle has a chance to land somewhere, with the highest potential to be in a specific place.  In the example video the particles mostly landed in the line between the slits but tapered off as they got further away.</span></p>
+<p class="p1"><span class="s1">Now take that into the next image... imagine you (or your consciousness) is a particle.  And while you are conscious you travel as if you were a particle.  But when you become unconscious (sleep? drugged? near death?) you become a potential wave.<br> </span></p>
+<figure class="post__image undefined" ><img src="https://Kikketer.github.io/media/posts/5/YourFuture.jpg" alt="Your future in a wave" width="603" height="404">
+<figcaption >Your future as a wave?</figcaption>
+</figure>
+<p><span class="s1">You won't wake up and be a millionaire (unless you already are) or a horse.  But you will wake up in a slightly different potential universe.  Whoa... wait a second...  What is the center of this?  Are we flying outward like a light?  I don't know, I'm just imagining it this way.  It lends itself into a fun thought experiment for sure!</span></p>
+<p>So like the potential wave of electrons, we too are riding our own wave.  And when we are not observing the reality we are currently seeing we riding along our own "wave" in a sense.  Your potentials are higher around where you are currently heading but you could land slightly off center.  The variation between the potentials is incredibly small and it's impossible to tell or test, but imagine you go to sleep with a sore ankle.  You could wake up and it would continue to be sore or less sore.  The level of sorness may be your potential wave altering which angle you landed when you awoke!</p>
+<p>It sounds crazy and it may be crazy, but that's kind of the point of my blog posts.  I present what's flowing through my head and sometimes it's wildly incorrect or nuts.  I just hope that maybe you get a thought or two in your head by reading this and potentially come up with some awesome idea you're willing to share.</p>
+<p class="p1"><strong>Interesting Reads/Watches:</strong></p>
+<ul>
+<li><a href="http://discovermagazine.com/2002/jun/featuniverse" target="_blank" rel="noopener noreferrer">Does the Universe Exist if We're Looking?</a></li>
+<li><a href="https://app.curiositystream.com/video/1795/can-we-time-travel?utm_adgroup=genius%20by%20stephen%20hawking%20(Hawking)&amp;msclkid=477d23d242091426fa2e79040898d53c&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=S-Titles-Beta&amp;utm_term=%2Bgenius%20%2Bby%20%2Bstephen%20%2Bhawking&amp;utm_content=genius%20by%20stephen%20hawking%20(Hawking)" target="_blank" rel="noopener noreferrer">Genius by Stephen Hawking</a></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Can you Stand Still?</title>
+        <author>
+            <name>Chris Weed</name>
+        </author>
+        <link href="https://Kikketer.github.io/can-you-stand-still/"/>
+        <id>https://Kikketer.github.io/can-you-stand-still/</id>
+            <category term="Thought_Experiment"/>
+            <category term="Random_Thoughts"/>
+
+        <updated>2018-04-17T14:49:01-05:00</updated>
+            <summary>
+                <![CDATA[
+                    So lately I've been exploring and generally interested in quantum physics and space-time. With that comes the idea of the multi-universe and makes you really come to grips that humans are just a flash in the space-time-universe pan. With that I liked the theorys around time&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>So lately I've been exploring and generally interested in quantum physics and space-time.  With that comes the idea of the multi-universe and makes you really come to grips that humans are just a flash in the space-time-universe pan.  With that I liked the theorys around time travel (Einstein's theory of Relativity) and what that means to us.</p>
+<p> </p>
+<h3>Time vs Speed</h3>
+<p>So besides the timeline of the universe, what is time in general?  How does time work?  As a human we can define time as being change and we can (for simplicity sake) say we notice this change by observation.  But that then all resolves into the speed of light (ignore the fact that we can use other senses to detect change for now).</p>
+<p>So imagine someone sitting in a room where light travled slower than someone in another room.  What would this slower light feel like?  I can imagine it being like they are in slow motion perhaps at least compared to the person in the other room.  But that person in the "slow moving light" room wouldn't know the difference, either because they always knew it to be that way or something else.</p>
+<p>Ok so light CAN'T travel slower than the speed of light.  So like Einstein predicted, if you move faster and light can't change speed then you are actually time traveling!</p>
+<p>So when you are flying down the freeway at 70mph (cuz you don't speed right) you are actually time traveling as well.  Time for you is going slightly slower than someone that's standing on the side of the road.</p>
+<p>There are tons of videos you can watch that explain this much better than me.  Here's a good one: <a href="https://www.youtube.com/watch?v=V7vpw4AH8QQ">https://www.youtube.com/watch?v=V7vpw4AH8QQ</a></p>
+<p>This has been proven as well by a bunch of really smart people that took a couple of ultra fine tuned clocks that were absolutely in sync with eachother.  They then took one of those clocks to the top of a mountain for a period of time.  When they returned the one on the moutain top was behind the one lower down.  The mountain top one was moving faster because it was further out from the center of the earth.  WHOA!</p>
+<h2>Can we tell how fast we are moving just using time?</h2>
+<p>So here's my thought.  And I'm just a simple Joe with some crazy thoughts.  This may have been thought of before and maybe proven right or wrong.  Anyway here it goes:</p>
+<p>Lets say we do the same dual clock thing like I mentioned before.  But instead of a top of a mountain we send one clock out into space.  Now somehow that clock would communicate with the other.  If we could then take this "space clock" and move it around at different speeds and compare it's rate of time change to the one on the planet; we could in theory have this space clock stay completely still!</p>
+<p><img src="https://Kikketer.github.io/media/posts/4/First-Flight.png" alt="" width="300" height="566"><img src="https://Kikketer.github.io/media/posts/4/How-fast.png" alt="" width="300" height="700"></p>
+<p>We know by looking at stars and such that we are moving thorugh the universe (fairly quickly).  Because we are moving that means we are also traveling through time at a different rate than someone else on a different planet or spaceship.  So we could kind of figure out how fast we are moving compared to "absolute zero speed" by comparing time between the "space clock" and the earth clock.</p>
+<p>I realize this may not work obviously, I'm not at all an expert in this area but if anything it can trigger some thoughts in your head.</p>
+<h4>Some References to Check Out:</h4>
+<ul>
+<li>A quick light travel/time travel video - <a href="#INTERNAL_LINK#/post/3" target="_blank" rel="noopener noreferrer">Speed of Light (youtube)</a><a href="https://www.youtube.com/watch?v=pQC3ErD1YwE"><br></a></li>
+<li>Genius by Stephen Hawking - <a href="https://app.curiositystream.com/video/1795/can-we-time-travel?utm_adgroup=genius%20by%20stephen%20hawking%20(Hawking)&amp;msclkid=bdb9c05d24b61281106a9a97f192dfeb&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=S-Titles-Beta&amp;utm_term=%2Bgenius%20%2Bby%20%2Bstephen%20%2Bhawking&amp;utm_content=genius%20by%20stephen%20hawking%20(Hawking)" target="_blank" rel="noopener noreferrer" title="Time travel with Stephen Hawking">Can We Time Travel?</a></li>
+<li>Movie Interstellar - <a href="http://www.imdb.com/title/tt0816692/" target="_blank" rel="noopener noreferrer">IMDB</a></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Making Android Clocks</title>
+        <author>
+            <name>Chris Weed</name>
+        </author>
+        <link href="https://Kikketer.github.io/making-android-clocks/"/>
+        <id>https://Kikketer.github.io/making-android-clocks/</id>
+            <category term="DIY"/>
+
+        <updated>2018-04-08T22:19:23-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Kikketer.github.io/media/posts/3/android-clock.jpg" alt="" />
+                    So anyone who knows me, knows that I dislike Android devices. But this wasn’t always the case, in fact at one point I returned an iPad because I thought it had an inferior user experience compared to an Android tablet. Now little did I know&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://Kikketer.github.io/media/posts/3/android-clock.jpg" alt="" />
+                <p>So anyone who knows me, knows that I dislike Android devices. But this wasn’t always the case, in fact at one point I returned an iPad because I thought it had an inferior user experience compared to an Android tablet.</p>
+<p>Now little did I know at that time I was so nestled into the web I forgot completely about apps. For example I would visit Gmail (my primary email) using mobile safari on the iPad instead of installing the Gmauil app. This and the fact that I had an android phone (which was total crap) I hadn’t yet entered the Apple garden.</p>
+<p><img class="post__image--center" src="https://Kikketer.github.io/media/posts/3/apple-vs-android-small.jpg" width="225" height="150"></p>
+<p>Since then I’ve entered the Apple garden and have never looked back. I am at a point in my life that I will spend a little bit more money to get a quality product. I’m also tired of tinkering with things that I need to use every day. I’ll tinker all day with things that aren’t important, but when my phone literally can’t answer a phone call (because it’s a POS android phone) then you have to start looking for alternatives.</p>
+<p>Anyway, that leads me into the realm of what to do with that original android tablet I purchased to replace that iPad. Since then the device has become incredibly useless it doesn’t even have the ability to keep the screen turned off while it’s charging. In fact while it’s charging it continues to make a ding sound as if it’s the first time you plugged it in. This android tablet is still being sold today… OMG what a terrible thing.</p>
+<p>So one day I decided to mount the tablet on the wall and since it refused to turn off the screen when it was plugged in, it would make a most excellent photo frame! Now any simple photo frame is pretty crappy as well for the follwing reasons:</p>
+<ul>
+<li>You have to load images onto an SD card</li>
+<li>Maintaining that SD card is super annoying</li>
+<li>Photo frames are unexpedidly expensive for what they do</li>
+<li>They are actually pretty thick compared to most tablets</li>
+</ul>
+<p>So I decided to make my android photo frame do more than just show a static set of images that I have to manually maintain. While I’m at it, why not have that photo frame show the time and weather information!</p>
+<h2 id="The-Architecture"><a href="http://cjweed.com/2018/02/03/Making-Android-Clocks/#The-Architecture" class="headerlink" title="The Architecture"></a>The Architecture</h2>
+<p>So my photo frame is probably overly complicated but I’ve done it this way because I’m most comfortable with HTML, CSS and JavaScript. I dislike Java and try to avoid it at all costs. The solution then means I want an android device to show a browser in full screen and that browser to point to some local web server that handles all of the display logic.</p>
+<p><img class="post__image--center" src="https://Kikketer.github.io/media/posts/3/android-clock-arch.jpg" width="546" height="321"></p>
+<p>This started out pretty simple because the structure of this whole thing is basically a standard web server with clients. I just make sure that the server is internal only.</p>
+<p>Luckily for me I already had a Raspberry Pi running in the house that was serving up my <a href="https://www.plex.tv/" target="_blank" rel="noopener noreferrer">Plex</a> server. With this there won’t be a need to fire up some computer that’s always on, plus it’s incredibly low powered.</p>
+<h2 id="The-Client"><a href="http://cjweed.com/2018/02/03/Making-Android-Clocks/#The-Client" class="headerlink" title="The Client"></a>The Client</h2>
+<p>All of the logic is handled by the client, which means it’s pretty limited to what a standard web browser can do. Actually come to find out, the crappy browser that’s in the “full screen browser” app I installed from the android play store has less features than most flip-phones. (Thanks again android).</p>
+<p>The client can be found here: <a href="https://github.com/Kikketer/photoframe" target="_blank" rel="noopener noreferrer">https://github.com/Kikketer/photoframe</a></p>
+<p>Showing a clock is super basic, I’m not going to get into that. Also I won’t dive much into the weather widget. You can implement a weather widget yourself if you use <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">Open Weather App</a>. The only tweak I did here was have my server cache the weather information for 15 minutes. This reduces the number of API calls I make against open weather and from what I remember it remains free as long as you don’t hit it very often.</p>
+<h3 id="Getting-Photos"><a href="http://cjweed.com/2018/02/03/Making-Android-Clocks/#Getting-Photos" class="headerlink" title="Getting Photos"></a>Getting Photos</h3>
+<p>The real challenge of the entire app plus the real advantage I get from using a tablet for a photo frame is that it could access the internet. I’m using Amazon Prime Photo for holding all of my photos which has unlimited storage for all photos. So the real goal is to somehow show images from Amazon Prime Photo in my photo frame.</p>
+<p>I decided to show photos from this month in the previous year. And this could have been simple to use the prime photos because each file is named for the date that it was taken. However I went a different route since my wife is a professional photographer I decided to use her edited photos in the frame.</p>
+<p>Now here’s where things get terrible! Amazon Prime Photo (and cloud drive) has a closed API! You have to officially sign up for their api and hope that you can get in. Even with that it seemed you needed to have a native app! I simply want an API to access my files but I guess Amazon doesn’t want that.</p>
+<h3 id="Odrive-to-the-Rescue"><a href="http://cjweed.com/2018/02/03/Making-Android-Clocks/#Odrive-to-the-Rescue" class="headerlink" title="Odrive to the Rescue"></a>Odrive to the Rescue</h3>
+<p>If you haven’t heard of <a href="https://odrive.com/" target="_blank" rel="noopener noreferrer">Odrive</a>, I’d highly reccomend it if you are using any cloud storage. It allows you to desginate a folder for all of your cloud drives and then automatically sync files to them by simply copy/paste.</p>
+<p>The purchased version also allows you to unsync files. This is amazing since my macbook is starting to fill up with all the images we have. It’ll remove files from the drive but then label them as <code>.cloud</code> and <code>.cloudf</code> placeholder files.</p>
+<h3 id="Putting-it-all-together"><a href="http://cjweed.com/2018/02/03/Making-Android-Clocks/#Putting-it-all-together" class="headerlink" title="Putting it all together"></a>Putting it all together</h3>
+<p>So now with odrive + this raspberry pi server I can sync specific files to the server and then serve them up to the clients! Every day the server will cycle down and sync these <code>.cloud</code> files until it reaches our designated folder. In my case that’s something like <code>Amazon Cloud Drive/Pictures/Winter 2016:2017/February edited/*</code>. And then pick 3 random <code>.jpg</code> files from that folder.</p>
+<p><img class="post__image--center" src="https://Kikketer.github.io/media/posts/3/public-images.png" alt="" width="198" height="146"></p>
+<p>Once I have the files I copy them over to the public folder on the web server and serve them up. The client of course needs to negate cache very once and awhile so that it gets the fresh images. The names are always the same since I didn’t want to bother telling the client the actual name of the image.</p>
+<p>Combining the auto image pull, clock, and weather data this is probably the best digital photo frame I’ve ever seen. Someday I could see actual Amazon Prime Photo frames coming out but for now this is a crazy cheap way to use your crusty (notice I didn’t say old) android tablets. I now have at least 2 of these running in my house, I might add more if I get some other fun stuff added.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Fixing The Neato Vacuum</title>
+        <author>
+            <name>Chris Weed</name>
+        </author>
+        <link href="https://Kikketer.github.io/fixing-the-neato-vacuum/"/>
+        <id>https://Kikketer.github.io/fixing-the-neato-vacuum/</id>
+            <category term="DIY"/>
+
+        <updated>2018-04-08T22:19:12-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Kikketer.github.io/media/posts/2/IMG_0613.jpg" alt="" />
+                    So my Neato D80 vacuum quit working again! This vacuum was originally purchased about 2 years ago and was doing fine. 13 months later it started failing to start and displayed Press OK to continue: 3000. To me this was an entirely useless error, if all&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://Kikketer.github.io/media/posts/2/IMG_0613.jpg" alt="" />
+                <p>So my Neato D80 vacuum quit working again! This vacuum was originally purchased about 2 years ago and was doing fine. 13 months later it started failing to start and displayed <code>Press OK to continue: 3000</code>. To me this was an entirely useless error, if all you want me to do is push OK why don’t you do it yourself!?</p>
+<p><img src="https://Kikketer.github.io/media/posts/2/Error-3000.jpg" alt="Error 3000, why can't you just do it?" width="533" height="400"></p>
+<p>Well come to find out the error <code>3000</code> means that it’s LIDAR isn’t working. LIDAR is the spinning top it has to see the walls around it. I’m not an expert in this area but I assume there’s a lot of things that need to work in tandem to have this work properly. It has to know which way it’s looking, the speed of the “eye” and probably some other things.</p>
+<p>Anyway, I called up Neato to see if it was covered under the warranty. Luckily it was! It seems the error <code>3000</code> was something that was good for 13 months instead of the typical 12. Now that may be the case or they just gave me an extra month grace period figuring the customers would explode when their vacuum dies one month after the warranty expires. Either way I was able to claim the warranty and get a replacement.</p>
+<p>The replacement came quick and everything was working fine again. Until 12 months later! Yes you heard that right, it’s almost like the vacuum is on a 12 month timer to break. I figured since this was a replacment machine I would get another 12 or 13 month warranty coverage. It seems not, according to Neato I would only get 90 days warranty with this replacement machine. So what was my next option? Official repair!!</p>
+<p>This is where I start to do some serious price comparisons. Looking at 2 different repair companies, it was going to be at least $35 just to look at the machine. This doesn’t include shipping. Once they look at the machine, they decide if it’s a “major” or “minor” repair. This would range from $30 to $90 more just for the labor. This didn’t include the price of the replacement part! And I’m assuming the replacement part will be inflated so much that this would be around $150 repair total (including shipping and downtime waiting for my vacuum to get back to me). A full replacement machine is about $300, so it’s almost not worth it.</p>
+<p>My house without my robot vacuum sucking things up immediately started to fall apart, toys and things started being left out from day to day. I needed to act fast.</p>
+<p>I then decided I would bust out the warranty voiders (my tools) and bust this thing open and see what’s up. I learned that the “eye” could have two common failure points: the motor and the belt. The vaccum’s “eye” wasn’t spinning at all unless I would give it a nudge, so I assumed at first that the belt was failing to grip.</p>
+<p><img src="https://Kikketer.github.io/media/posts/2/Voiders.jpg" alt="" width="400" height="400"></p>
+<p>I ordered a replacement belt and motor, totalling around $35. After ripping open the top (check a video on how to do this so you don’t wreck something, it’s actually pretty easy) I realized that the belt seemed to be gripping fine. A couple trials by starting up the vaccum with the top ripped off showed me that the motor wasn’t spinning at all.</p>
+<p><img src="https://Kikketer.github.io/media/posts/2/Overview.jpg" alt="" width="400" height="400"></p>
+<p>Replacing the motor was incredibly easy. It was just a couple zip ties and a plug. I pulled all the screws out, unplugged and then replaced with the new motor. Bam! The vacuum is now working like a champ and I saved at least $100 and time waiting for the repair to finish. Bonus, the D80 series of vacuums do not have a screw covered by a sticker. This means you can freely dismantle your vacuum without worrying about actually voiding the warranty!</p>
+<p><img src="https://Kikketer.github.io/media/posts/2/Motor.jpg" alt="" width="400" height="300"></p>
+<p><img src="https://Kikketer.github.io/media/posts/2/Connections.jpg" alt="" width="400" height="300"></p>
+<p>I’ve taken apart the XV-21 in the past and I’d have to say that the D80 was significantly improved. Things were easier to take apart, easier to put together and easier to repair. Neato has one of the most confusing model numbers, but a good rule of thumb is to just get the cheapest of a series. So if you are picking between D85 and D80, just get the D80. It’s literally the same. They have tried to explain differences but all the differences are things you will need to replace anyway (battery, filters, and/or brush). With the XV series it’s even more of a joke, the model numbers are literally just differences in color.</p>
+<p>After all of this, I still reccomend Neato robotic vacuums over the alternatives. They have the best navigation and shape compared to the others.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Looking to the New Year</title>
+        <author>
+            <name>Chris Weed</name>
+        </author>
+        <link href="https://Kikketer.github.io/looking-to-the-new-year/"/>
+        <id>https://Kikketer.github.io/looking-to-the-new-year/</id>
+            <category term="Random_Thoughts"/>
+
+        <updated>2018-04-08T22:19:09-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://Kikketer.github.io/media/posts/1/Multiple-Printers.jpg" alt="" />
+                    2017 has been a pretty good year, in general, for me. I can’t say the same for other poeple however. The United States is frighteningly separated between people, there were record breaking trategies from storms and idots with guns. For me however I’m lucky enough&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://Kikketer.github.io/media/posts/1/Multiple-Printers.jpg" alt="" />
+                <p>2017 has been a pretty good year, in general, for me. I can’t say the same for other poeple however. The United States is frighteningly separated between people, there were record breaking trategies from storms and idots with guns. For me however I’m lucky enough to not be directly affected by these things.</p>
+<p>Workgrid Software kicked off this year which is super exciting. We are currently building an aggrigator system built for enterprises. It crossed my mind last night as I was talking to my son that we are all basically an aggrigator of information. We consume data from thousands/millions of sources and with that information we build our own opinions and thoughts. Is it slightly depressing to realize that we are pretty much a result of our environment and inputs?</p>
+<p>For example if I listen to some news casts around Trump and how terrible he is, I’ll start to think that he’s terrible. If I had listened to other news casts that said all the great things he’s doing, I’d feel the opposite. That brings me back to the idea that I’m not an expert in anything, I just use the results of my inputs and form my own opinions and thoughts. These my be driven primarily from these inputs and you may not agree with them because your inputs are different.</p>
+<p><strong>What am I looking to do in 2018?</strong></p>
+<p>So this year I’m really planning on getting my Scamp trailer fixed up and working. Right now it doesn’t have a floor, needs an axle replacement, and leaks like crazy.</p>
+<p>Another adventure will be to get another board game designed, refined, and possibly published. I’m currently attempting to get Catapults! game published but due to it’s expense in manufacturing it’ll be slow going. I was planning on producing the game in short quantities using my 3D printers to manufacture the parts. But since the second printer has a few issues I’m glad I didn’t commit to that (yet).</p>
+<p> </p>
+<p>I really want to dive into more DIY electronics as well. I’ve tried many times to get started in these things but there hasn’t been a real project to work on yet. This year I will find that project, perhaps something around N-scale trains, that’ll involve using an arduino. Another option is around a board game as well.</p>
+<p>Look forward to more posts! I’m hoping to publish my random ideas and projects here on a reasonable regular basis. I only hope to inspire at least one person to try something new or give something they “know” a second thought.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
