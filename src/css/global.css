@@ -229,3 +229,9 @@ mark {
   white-space: nowrap;
   width: 1px;
 }
+
+h2 ~ .sub-title {
+  margin-top: 0;
+  margin-left: 15px;
+  font-size: 0.89rem;
+}

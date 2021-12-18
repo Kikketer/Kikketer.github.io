@@ -1,0 +1,59 @@
+.chirp-section {
+  margin-top: 25px;
+  display: grid;
+  grid-template-rows: 1fr;
+  overflow-y: hidden;
+}
+
+.chirp-scroller {
+  border-top: 1px solid #e6e6e6;
+  padding: 15px 15px 25px 15px;
+  overflow-y: scroll;
+  display: flex;
+}
+
+.chirp {
+  box-shadow: 0 3.9px 4.6px rgba(0, 0, 0, 0.08), 0 12.3px 8.4px rgba(0, 0, 0, 0.056),
+    0 18.8px 19.2px rgba(0, 0, 0, 0.037), 0 22px 40px rgba(0, 0, 0, 0.019);
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  max-width: 100%;
+  min-height: 10rem;
+  overflow-x: scroll;
+  margin-right: 10px;
+}
+
+.chirp p {
+  margin: 0;
+}
+
+.chirp time {
+  font-size: 0.8rem;
+}
+
+.chirp img {
+  max-height: 50px;
+  margin: auto;
+  object-fit: contain;
+}
+
+#next-chirp {
+  height: 22px;
+  width: 22px;
+  display: block;
+  position: absolute;
+  left: 0;
+  background: orange;
+  top: calc(50% - 11px);
+}
+
+#previous-chirp {
+  height: 22px;
+  width: 22px;
+  display: block;
+  position: absolute;
+  right: 0;
+  background: orange;
+  top: calc(50% - 11px);
+}
