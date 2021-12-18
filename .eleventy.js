@@ -44,6 +44,10 @@ module.exports = function (eleventyConfig) {
     return manifest['main.js'] ? `<script src="${manifest['main.js']}"></script>` : ''
   })
 
+  eleventyConfig.addFilter('keys', (chirp) => {
+    return Object.keys(chirp)
+  })
+
   eleventyConfig.addFilter('excerpt', (post) => {
     const content = post.replace(/(<([^>]+)>)/gi, '')
     return content.substr(0, content.lastIndexOf(' ', 200)) + '...'
@@ -97,7 +101,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addFilter('pageTags', (tags) => {
-    const generalTags = ['all', 'nav', 'post', 'posts']
+    const generalTags = ['all', 'nav', 'post', 'posts', 'chirp']
 
     return tags
       .toString()

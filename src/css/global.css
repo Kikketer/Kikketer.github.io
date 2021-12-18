@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   height: 100%;
+  font-size: 100%;
 }
 
 body {
@@ -228,4 +229,10 @@ mark {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+h2 ~ .sub-title {
+  margin-top: 0;
+  margin-left: 15px;
+  font-size: 0.89rem;
 }

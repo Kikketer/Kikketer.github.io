@@ -4,6 +4,7 @@ layout: base
 
 <header class="hero">
   <div class="hero-content">
+    <img src="/images/Cover.webp" alt="Chris Weed leaning over an oversized Chess board" />
     <div class="intro">
       {{ content | safe }}
     </div>
@@ -27,9 +28,7 @@ layout: base
 
 </header>
 
-<!--<section class="quack-list__wrapper">-->
-<!--  <h2 class="post-list__heading">Quacks</h2>-->
-<!--</section>-->
+{% include "chirp-list.njk" %}
 
 <section class="post-list__wrapper">
   <h2 class="post-list__heading">Recent Posts</h2>

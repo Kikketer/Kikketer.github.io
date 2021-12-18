@@ -2,7 +2,7 @@
 title: Pokemon Rescue
 description: Using GDevelop to quickly create a Pokemon care video game for my daughter
 permalink: posts/{{ title | slug }}/index.html
-date: '2021-11-30'
+date: Last Modified
 tags: [video-game, code, unfinished-project]
 ---
 

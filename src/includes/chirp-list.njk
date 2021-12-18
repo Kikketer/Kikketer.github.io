@@ -1,0 +1,19 @@
+<section class="chirp-section">
+  <h2>Chirps</h2>
+  <p class="sub-title">Because I don't tweet</p>
+  <div class="chirp-scroller">
+<!--    <a href="#" id="next-chirp" aria-label="Next Chirp"></a>-->
+    {% for chirp in collections.chirp | reverse %}
+    <div class="chirp">
+      {% if chirp.data.image %}
+        <img src="{{chirp.data.image}}" alt="{{chirp.data.imageAlt}}" />
+      {% endif %}
+      <time datetime="{{ chirp.date | htmlDateString }}">
+        {{ chirp.date | readableDate }}
+      </time>
+      {{ chirp.templateContent | safe }}
+    </div>
+    {% endfor %}
+<!--    <a href="#" id="previous-chirp" aria-label="Previous Chirp"></a>-->
+  </div>
+</section>

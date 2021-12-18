@@ -7,7 +7,7 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'post.css';
-@import 'quacks.css';
+@import 'chirps.css';
 @import 'about.css';
 
 .layout-wrapper {
@@ -18,7 +18,7 @@
 
 .main {
   display: flex;
-  padding-bottom: 4rem;
+  padding-bottom: 40px;
   flex-direction: column;
   padding-left: 1rem;
   padding-right: 1rem;

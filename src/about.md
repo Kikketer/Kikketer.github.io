@@ -2,7 +2,7 @@
 title: About Chris Weed
 layout: about.njk
 name: Chris Weed
-image: '/images/me.jpeg'
+image: '/images/me.webp'
 ---
 
 Chris Weed is a full-stack Principal Software Engineer at Workgrid Software LLC where he spends his days building and learning all about AWS and User Experience.
@@ -15,7 +15,12 @@ His true passion is the user experience including aspects of accessibility and t
 
 ## Current Skillset
 
-- React, HTML, CSS, JavaScript, NodeJS and AWS
+- React
+- React Native
+- JavaScript, NodeJS
+- AWS Lambdas and S3
+- Mobile Application deployment including SOC2 requirements
+- HTML and CSS (less, scss, css-in-js)
 
 ## Currently Learning
 
