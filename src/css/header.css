@@ -5,6 +5,25 @@
   margin-bottom: 10px;
 }
 
+#skipnav a:focus {
+  clip: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+  background: var(--background);
+  border: 2px solid var(--color);
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  font-weight: bold;
+  color: var(--color);
+  text-transform: none;
+  transition: none;
+}
+
 .header__content {
   display: flex;
   flex-wrap: wrap;

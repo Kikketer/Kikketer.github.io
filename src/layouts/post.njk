@@ -14,11 +14,11 @@ layout: base.njk
     </div>
   </header>
 
-  <main class="post__content">
+  <div class="post__content">
     {{ content | safe }}
-  </main>
+  </div>
 
-  <aside class="post__aside">
+  <aside aria-label="Post metadata" class="post__aside">
     <div class="post__tags">
       {% for tag in tags | pageTags %}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
@@ -26,24 +26,22 @@ layout: base.njk
       {% endfor %}
     </div>
 
-    <nav class="post__pagination">
+    <nav aria-label="Post" class="post__pagination">
       {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
       {%- if nextPost %}
 
-        <a href="{{ nextPost.url | url }}">
-          <span>←</span>
-          <span>{{ nextPost.data.title }}</span>
-        </a>
+      <a aria-label="Read older post: {{nextPost.data.title}}" href="{{ nextPost.url | url }}">
+        <span aria-hidden="true" role="img" aria-label="arrow left">←</span>{{ nextPost.data.title }}
+      </a>
 
       {% endif %}
 
       {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
       {%- if previousPost %}
 
-        <a href="{{ previousPost.url | url }}">
-          <span>{{ previousPost.data.title }}</span>
-          <span>→</span>
-        </a>
+      <a aria-label="Read newer post: {{previousPost.data.title}}" href="{{ previousPost.url | url }}">
+        {{ previousPost.data.title }}<span aria-hidden="true" role="img" aria-label="arrow right">→️</span>
+      </a>
 
       {% endif %}
     </nav>

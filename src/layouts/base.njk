@@ -54,6 +54,10 @@
     <div class="layout-wrapper">
 
       <header class="header">
+        <div id="skipnav">
+          <a href="#main" class="visually-hidden">Skip navigation</a>
+        </div>
+
         <div class="header__content">
           <h1 class="site-title">
             <a href={{ "/" | url }}>
@@ -62,7 +66,7 @@
           </h1>
 
           {% if site.headerLinks %}
-            <nav class="nav">
+            <nav aria-label="Site" class="nav">
               <ul class="nav__list">
                 {% for item in site.headerLinks %}
                   {% set currentAttribute = '' %}
@@ -88,7 +92,7 @@
         </div>
       </header>
 
-      <main class="main">
+      <main id="main" class="main">
         {{ content | safe }}
       </main>
 
