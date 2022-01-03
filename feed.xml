@@ -182,13 +182,17 @@
 <p><img src="../../images/pokemon-rescue-gb-crazy-nest.webp" alt="A really crazy nest of if checks within the drag and drop IDE"></p>
 <p>The drag and drop nature of the IDE can feel a bit cumbersome at times as well especially when you are already a developer. A bug I've filed recently really makes my head hurt because of my ingrained knowledge of if checks.</p>
 <p><img src="../../images/pokemon-rescue-gb-dialog-bug.webp" alt="A screenshot of the GBStudio with an if check clearly failing to evaluate properly"></p>
-<h2>Abandoned</h2>
+<h2 id="abandoned">Abandoned</h2>
 <p>Updated Jan 1st 2022: I've walked away from GBStudio for now since there were some critical things that I was not able to do. The two major issues were:</p>
 <ol>
 <li>Performance issues around movement</li>
 <li>Update for each critter paused when off screen</li>
 </ol>
 <p>For the &quot;performance issues around movement&quot;, I had the critters move one space at a time using a random number (1-4 one for each direction). The problem wasn't so much that the random number was slowing things down, it was the actual movement. I found that while a critter was moving the entire game slowed dramatically. My goal was to have 10 critters at a time, but the game was unplayable at 4.</p>
+<video controls title="Framerate drops" aria-label="The player character moving around a farm and framerate of the game drops dramatically as the animals move">
+  <source src="/images/pokemon-gb-move-performance.webm">
+  Sorry your browser doesn't support this video
+</video>
 <p>The &quot;update offscreen&quot; issue comes from an inherent GB performance necessity to keep the game running smoothly. The onUpdate logic was great, each critter had it's own bit of code to run to add or subtract it's health and happiness on a timer. Simply walking far enough away from a critter would allow it to live and be happy forever. I want the constant &quot;oh better go check on X critter&quot; feeling in my game.</p>
 <p>A suggested solution was to make a single actor, always visible that maintained all of the other critters. But the way GBStudio is built you can not access &quot;internal&quot; variables for an actor from a separate actor. This means I would have to have all the health and happiness of each actor tracked in individual global variables.</p>
 <p>All of these limitations are fantastic to have when attempting to build something. I loved that GBStudio forced me to re-evaluate the actual game itself and made the game simpler and more fun at the same time. The GDevelop version had a whole menu system to pet, pick up and feed the critters which now feels very clunky and annoying. GBStudio forced me to make it a simple &quot;pick up a critter and place it where it needs to be&quot; game.</p>
