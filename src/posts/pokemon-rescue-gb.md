@@ -42,13 +42,19 @@ The drag and drop nature of the IDE can feel a bit cumbersome at times as well e
 
 ![A screenshot of the GBStudio with an if check clearly failing to evaluate properly](../../images/pokemon-rescue-gb-dialog-bug.webp)
 
-## Abandoned
+<h2 id="abandoned">Abandoned</h2>
 
 Updated Jan 1st 2022: I've walked away from GBStudio for now since there were some critical things that I was not able to do. The two major issues were:
+
 1. Performance issues around movement
 2. Update for each critter paused when off screen
 
 For the "performance issues around movement", I had the critters move one space at a time using a random number (1-4 one for each direction). The problem wasn't so much that the random number was slowing things down, it was the actual movement. I found that while a critter was moving the entire game slowed dramatically. My goal was to have 10 critters at a time, but the game was unplayable at 4.
+
+<video controls title="Framerate drops" aria-label="The player character moving around a farm and framerate of the game drops dramatically as the animals move">
+  <source src="/images/pokemon-gb-move-performance.webm">
+  Sorry your browser doesn't support this video
+</video>
 
 The "update offscreen" issue comes from an inherent GB performance necessity to keep the game running smoothly. The onUpdate logic was great, each critter had it's own bit of code to run to add or subtract it's health and happiness on a timer. Simply walking far enough away from a critter would allow it to live and be happy forever. I want the constant "oh better go check on X critter" feeling in my game.
 
