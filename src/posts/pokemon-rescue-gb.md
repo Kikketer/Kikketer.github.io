@@ -42,6 +42,18 @@ The drag and drop nature of the IDE can feel a bit cumbersome at times as well e
 
 ![A screenshot of the GBStudio with an if check clearly failing to evaluate properly](../../images/pokemon-rescue-gb-dialog-bug.webp)
 
-## Work Progresses
+## Abandoned
 
-I'll be updating this post as the game gets closer and closer to what I think is completion. I'm hoping to have it done by the new year and open up the "how do I get this on a physical GameBoy" realm.
+Updated Jan 1st 2022: I've walked away from GBStudio for now since there were some critical things that I was not able to do. The two major issues were:
+1. Performance issues around movement
+2. Update for each critter paused when off screen
+
+For the "performance issues around movement", I had the critters move one space at a time using a random number (1-4 one for each direction). The problem wasn't so much that the random number was slowing things down, it was the actual movement. I found that while a critter was moving the entire game slowed dramatically. My goal was to have 10 critters at a time, but the game was unplayable at 4.
+
+The "update offscreen" issue comes from an inherent GB performance necessity to keep the game running smoothly. The onUpdate logic was great, each critter had it's own bit of code to run to add or subtract it's health and happiness on a timer. Simply walking far enough away from a critter would allow it to live and be happy forever. I want the constant "oh better go check on X critter" feeling in my game.
+
+A suggested solution was to make a single actor, always visible that maintained all of the other critters. But the way GBStudio is built you can not access "internal" variables for an actor from a separate actor. This means I would have to have all the health and happiness of each actor tracked in individual global variables.
+
+All of these limitations are fantastic to have when attempting to build something. I loved that GBStudio forced me to re-evaluate the actual game itself and made the game simpler and more fun at the same time. The GDevelop version had a whole menu system to pet, pick up and feed the critters which now feels very clunky and annoying. GBStudio forced me to make it a simple "pick up a critter and place it where it needs to be" game.
+
+I've updated GDevelop version to remove the menu but now I'm going to try and build this game using [MakeCode Arcade](https://arcade.makecode.com/) because it has the ability to use dedicated [external hardware](https://www.amazon.com/Kittenbot-Card-Sized-Computer-Microsoft-Compatible/dp/B07XSWXPZL/ref=sr_1_1_sspa) very similar to the GameBoy. I'll be posting my adventure with that platform next.
