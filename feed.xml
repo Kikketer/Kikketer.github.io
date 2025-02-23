@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Chris Weed</title>
+    <link href="https://kikketer.github.io/feed.xml" rel="self" />
+    <link href="https://kikketer.github.io" />
+    <updated>1969-12-31T18:00:00-06:00</updated>
+    <author>
+        <name>Chris</name>
+    </author>
+    <id>https://kikketer.github.io</id>
+
+</feed>

@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Chris Weed",
+    "description": "",
+    "home_page_url": "https://kikketer.github.io",
+    "feed_url": "https://kikketer.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Chris"
+    },
+    "items": [
+    ]
+}
