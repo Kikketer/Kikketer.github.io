@@ -1,5 +1,5 @@
 # Chris Weed
 
-I'm a Principal Software Engineer, currently working for Workgrid LLC. where I spend my days attempting to improve the UI and UX of everything I touch.
+I'm a Senior Fullstack Software Engineer with an emphasis on UI/UX and project management. currently working for Talent Systems on their flaship product Casting Networks and Fast Capture Live.
 
-Please visit the actual site: https://kikketer.com
+Please visit the actual site: https://cjweed.com
