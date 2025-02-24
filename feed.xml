@@ -3,7 +3,7 @@
     <title>Chris Weed</title>
     <link href="https://kikketer.github.io/feed.xml" rel="self" />
     <link href="https://kikketer.github.io" />
-    <updated>2025-02-23T19:36:17-06:00</updated>
+    <updated>2025-02-23T19:53:56-06:00</updated>
     <author>
         <name>Chris</name>
     </author>
@@ -698,8 +698,13 @@ export default config</code></pre>
 <pre class="line-numbers  language-jsx"><code>pnpm run dev</code></pre>
 
   <p>
-    And then try to authenticate with the simulator again. You'll land on the logged page for that website, not back in your native app 😔. This is where Deep Links or as Apple calls them "Universal Links" comes into play
+    And then try to authenticate with the simulator again. You'll land on the logged page for that website, not back in your native app 😔. This is where Deep Links or as Apple calls them "Universal Links" comes into play.
   </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/back-to-localhost.gif" height="619" width="320" alt="" >
+      
+    </figure>
 
     <h2 id="deep-links-and-universal-links">
       Deep Links and Universal Links
