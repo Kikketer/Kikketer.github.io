@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Chris Weed</title>
-    <link href="https://kikketer.github.io/feed.xml" rel="self" />
-    <link href="https://kikketer.github.io" />
+    <link href="https://cjweed.com/feed.xml" rel="self" />
+    <link href="https://cjweed.com" />
     <updated>2025-02-23T19:53:56-06:00</updated>
     <author>
         <name>Chris</name>
     </author>
-    <id>https://kikketer.github.io</id>
+    <id>https://cjweed.com</id>
 
     <entry>
         <title>Capacitor + Supabase + Social Auth + React</title>
         <author>
             <name>Chris</name>
         </author>
-        <link href="https://kikketer.github.io/capacitor-supabase-social-auth-react/"/>
-        <id>https://kikketer.github.io/capacitor-supabase-social-auth-react/</id>
-        <media:content url="https://kikketer.github.io/media/posts/3/Supa.png" medium="image" />
+        <link href="https://cjweed.com/capacitor-supabase-social-auth-react/"/>
+        <id>https://cjweed.com/capacitor-supabase-social-auth-react/</id>
+        <media:content url="https://cjweed.com/media/posts/3/Supa.png" medium="image" />
             <category term="web"/>
             <category term="tutorial"/>
             <category term="learning"/>
@@ -24,13 +24,13 @@
         <updated>2025-02-22T09:14:07-06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kikketer.github.io/media/posts/3/Supa.png" alt="Supabase, Capacitor, Google Logos" />
+                        <img src="https://cjweed.com/media/posts/3/Supa.png" alt="Supabase, Capacitor, Google Logos" />
                     I've been building an application to help with a summer job I've had for a couple years which involves line painting. The app is intended to help painters predict when a field needs to be painted, I decided to take the opportunity to create a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kikketer.github.io/media/posts/3/Supa.png" class="type:primaryImage" alt="Supabase, Capacitor, Google Logos" /></p>
+                    <p><img src="https://cjweed.com/media/posts/3/Supa.png" class="type:primaryImage" alt="Supabase, Capacitor, Google Logos" /></p>
                 
   <p>
     I've been building an application to help with a summer job I've had for a couple years which involves line painting. The app is intended to help painters predict when a field needs to be painted, I decided to take the opportunity to create a solid progressive web app and eventually a native app.
@@ -116,7 +116,7 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/Blank-Ionic-2.png" height="549" width="320" alt="A blank ionic web application"  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/Blank-Ionic-2-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/Blank-Ionic-2-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/Blank-Ionic-2-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/Blank-Ionic-2-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/Blank-Ionic-2-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/Blank-Ionic-2-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/Blank-Ionic-2.png" height="549" width="320" alt="A blank ionic web application"  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/Blank-Ionic-2-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/Blank-Ionic-2-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/Blank-Ionic-2-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/Blank-Ionic-2-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/Blank-Ionic-2-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/Blank-Ionic-2-2xl.png 1920w">
       
     </figure>
 
@@ -137,7 +137,7 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-iite-2.png" height="183" width="400" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iite-2-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iite-2-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iite-2-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iite-2-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iite-2-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iite-2-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-iite-2.png" height="183" width="400" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-iite-2-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iite-2-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iite-2-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iite-2-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iite-2-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iite-2-2xl.png 1920w">
       
     </figure>
 
@@ -146,7 +146,7 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-iioc.png" height="1298" width="1656" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iioc-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iioc-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iioc-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iioc-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iioc-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iioc-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-iioc.png" height="1298" width="1656" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-iioc-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iioc-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iioc-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iioc-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iioc-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iioc-2xl.png 1920w">
       
     </figure>
 
@@ -155,7 +155,7 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250221-rlhw.png" height="456" width="1080" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rlhw-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rlhw-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rlhw-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rlhw-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rlhw-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rlhw-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250221-rlhw.png" height="456" width="1080" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250221-rlhw-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rlhw-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rlhw-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rlhw-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rlhw-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rlhw-2xl.png 1920w">
       
     </figure>
 
@@ -164,7 +164,7 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250221-rmvp.png" height="233" width="400" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rmvp-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rmvp-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rmvp-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rmvp-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rmvp-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250221-rmvp-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250221-rmvp.png" height="233" width="400" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250221-rmvp-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rmvp-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rmvp-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rmvp-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rmvp-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250221-rmvp-2xl.png 1920w">
       
     </figure>
 
@@ -173,7 +173,7 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-ihsw.png" height="1132" width="1670" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-ihsw-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-ihsw-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-ihsw-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-ihsw-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-ihsw-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-ihsw-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-ihsw.png" height="1132" width="1670" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-ihsw-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-ihsw-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-ihsw-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-ihsw-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-ihsw-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-ihsw-2xl.png 1920w">
       
     </figure>
 
@@ -190,7 +190,7 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-imcm-3.png" height="359" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-imcm-3-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-imcm-3-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-imcm-3-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-imcm-3-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-imcm-3-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-imcm-3-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-imcm-3.png" height="359" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-imcm-3-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-imcm-3-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-imcm-3-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-imcm-3-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-imcm-3-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-imcm-3-2xl.png 1920w">
       
     </figure>
 
@@ -199,12 +199,12 @@ ionic serve</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-inbb-2.png" height="668" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-inbb-2-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-inbb-2-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-inbb-2-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-inbb-2-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-inbb-2-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-inbb-2-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-inbb-2.png" height="668" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-inbb-2-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-inbb-2-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-inbb-2-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-inbb-2-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-inbb-2-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-inbb-2-2xl.png 1920w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-iloa.png" height="1302" width="2384" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iloa-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iloa-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iloa-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iloa-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iloa-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-iloa-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-iloa.png" height="1302" width="2384" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-iloa-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iloa-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iloa-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iloa-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iloa-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-iloa-2xl.png 1920w">
       
     </figure>
 
@@ -544,7 +544,7 @@ export default App
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-jjef.png" height="1002" width="2234" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-jjef-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-jjef-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-jjef-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-jjef-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-jjef-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-jjef-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-jjef.png" height="1002" width="2234" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-jjef-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-jjef-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-jjef-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-jjef-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-jjef-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-jjef-2xl.png 1920w">
       
     </figure>
 
@@ -580,7 +580,7 @@ VITE_SUPABASE_URL=# The project URL from Supabase
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/preview-resized.gif" height="570" width="340" alt="" >
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/preview-resized.gif" height="570" width="340" alt="" >
       
     </figure>
 
@@ -675,7 +675,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-rxax.png" height="432" width="1282" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-rxax-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-rxax-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-rxax-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-rxax-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-rxax-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-rxax-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-rxax.png" height="432" width="1282" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-rxax-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-rxax-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-rxax-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-rxax-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-rxax-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-rxax-2xl.png 1920w">
       
     </figure>
 
@@ -684,7 +684,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-suhx.png" height="625" width="800" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-suhx.png" height="625" width="800" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-2xl.png 1920w">
       
     </figure>
 
@@ -702,7 +702,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/back-to-localhost.gif" height="619" width="320" alt="" >
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/back-to-localhost.gif" height="619" width="320" alt="" >
       
     </figure>
 
@@ -739,7 +739,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tefa-2.png" height="201" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tefa-2-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tefa-2-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tefa-2-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tefa-2-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tefa-2-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tefa-2-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tefa-2.png" height="201" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tefa-2-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tefa-2-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tefa-2-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tefa-2-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tefa-2-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tefa-2-2xl.png 1920w">
       
     </figure>
 
@@ -748,7 +748,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tewl.png" height="678" width="1616" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tewl-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tewl-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tewl-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tewl-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tewl-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tewl-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tewl.png" height="678" width="1616" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tewl-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tewl-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tewl-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tewl-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tewl-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tewl-2xl.png 1920w">
       
     </figure>
 
@@ -757,7 +757,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tfln.png" height="612" width="1182" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tfln-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tfln-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tfln-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tfln-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tfln-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tfln-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tfln.png" height="612" width="1182" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tfln-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tfln-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tfln-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tfln-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tfln-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tfln-2xl.png 1920w">
       
     </figure>
 
@@ -778,7 +778,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-stuc-2.png" height="230" width="320" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-stuc-2-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-stuc-2-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-stuc-2-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-stuc-2-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-stuc-2-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-stuc-2-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-stuc-2.png" height="230" width="320" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-stuc-2-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-stuc-2-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-stuc-2-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-stuc-2-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-stuc-2-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-stuc-2-2xl.png 1920w">
       
     </figure>
 
@@ -787,7 +787,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-suhx-2.png" height="625" width="800" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-2-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-2-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-2-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-2-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-2-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-suhx-2-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-suhx-2.png" height="625" width="800" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-2-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-2-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-2-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-2-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-2-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-suhx-2-2xl.png 1920w">
       
     </figure>
 
@@ -796,7 +796,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-svmd.png" height="876" width="1806" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-svmd-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-svmd-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-svmd-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-svmd-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-svmd-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-svmd-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-svmd.png" height="876" width="1806" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-svmd-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-svmd-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-svmd-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-svmd-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-svmd-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-svmd-2xl.png 1920w">
       
     </figure>
 
@@ -805,7 +805,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-szdj.png" height="241" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-szdj-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-szdj-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-szdj-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-szdj-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-szdj-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-szdj-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-szdj.png" height="241" width="500" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-szdj-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-szdj-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-szdj-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-szdj-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-szdj-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-szdj-2xl.png 1920w">
       
     </figure>
 
@@ -832,7 +832,7 @@ export default config</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tavt.png" height="830" width="1668" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tavt-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tavt-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tavt-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tavt-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tavt-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tavt-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tavt.png" height="830" width="1668" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tavt-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tavt-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tavt-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tavt-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tavt-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tavt-2xl.png 1920w">
       
     </figure>
 
@@ -881,7 +881,7 @@ index.html</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tpim-2.png" height="230" width="400" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tpim-2-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tpim-2-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tpim-2-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tpim-2-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tpim-2-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tpim-2-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tpim-2.png" height="230" width="400" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tpim-2-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tpim-2-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tpim-2-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tpim-2-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tpim-2-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tpim-2-2xl.png 1920w">
       
     </figure>
 
@@ -890,7 +890,7 @@ index.html</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tnlf.png" height="866" width="1744" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tnlf-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tnlf-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tnlf-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tnlf-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tnlf-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tnlf-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tnlf.png" height="866" width="1744" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tnlf-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tnlf-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tnlf-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tnlf-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tnlf-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tnlf-2xl.png 1920w">
       
     </figure>
 
@@ -908,7 +908,7 @@ index.html</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-trhp.png" height="121" width="320" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-trhp-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-trhp-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-trhp-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-trhp-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-trhp-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-trhp-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-trhp.png" height="121" width="320" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-trhp-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-trhp-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-trhp-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-trhp-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-trhp-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-trhp-2xl.png 1920w">
       
     </figure>
 
@@ -917,7 +917,7 @@ index.html</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tlym.png" height="1116" width="1750" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tlym-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tlym-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tlym-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tlym-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tlym-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tlym-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tlym.png" height="1116" width="1750" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tlym-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tlym-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tlym-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tlym-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tlym-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tlym-2xl.png 1920w">
       
     </figure>
 
@@ -942,7 +942,7 @@ index.html</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tvko.png" height="1098" width="1526" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tvko-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tvko-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tvko-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tvko-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tvko-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tvko-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tvko.png" height="1098" width="1526" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tvko-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tvko-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tvko-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tvko-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tvko-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tvko-2xl.png 1920w">
       
     </figure>
 
@@ -951,7 +951,7 @@ index.html</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-twqr.png" height="906" width="1174" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-twqr-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-twqr-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-twqr-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-twqr-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-twqr-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-twqr-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-twqr.png" height="906" width="1174" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-twqr-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-twqr-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-twqr-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-twqr-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-twqr-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-twqr-2xl.png 1920w">
       
     </figure>
 
@@ -960,7 +960,7 @@ index.html</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/SCR-20250222-tyud.png" height="930" width="1238" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tyud-xs.png 640w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tyud-sm.png 768w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tyud-md.png 1024w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tyud-lg.png 1366w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tyud-xl.png 1600w ,https://kikketer.github.io/media/posts/3/responsive/SCR-20250222-tyud-2xl.png 1920w">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/SCR-20250222-tyud.png" height="930" width="1238" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/SCR-20250222-tyud-xs.png 640w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tyud-sm.png 768w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tyud-md.png 1024w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tyud-lg.png 1366w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tyud-xl.png 1600w ,https://cjweed.com/media/posts/3/responsive/SCR-20250222-tyud-2xl.png 1920w">
       
     </figure>
 
@@ -994,7 +994,7 @@ applinks:wtft.zone</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kikketer.github.io/media/posts/3/app-last.gif" height="619" width="320" alt="" >
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/app-last.gif" height="619" width="320" alt="" >
       
     </figure>
 
@@ -1037,40 +1037,40 @@ applinks:wtft.zone</code></pre>
         <author>
             <name>Chris</name>
         </author>
-        <link href="https://kikketer.github.io/pokemon-rescue-gbstudio/"/>
-        <id>https://kikketer.github.io/pokemon-rescue-gbstudio/</id>
-        <media:content url="https://kikketer.github.io/media/posts/8/PokemonGBCover.png" medium="image" />
+        <link href="https://cjweed.com/pokemon-rescue-gbstudio/"/>
+        <id>https://cjweed.com/pokemon-rescue-gbstudio/</id>
+        <media:content url="https://cjweed.com/media/posts/8/PokemonGBCover.png" medium="image" />
             <category term="videogame"/>
             <category term="learning"/>
 
         <updated>2021-12-26T11:14:00-06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kikketer.github.io/media/posts/8/PokemonGBCover.png" alt="" />
+                        <img src="https://cjweed.com/media/posts/8/PokemonGBCover.png" alt="" />
                     Moving from GDevelop to GB Studio to and really gaining traction on the game development. In my previous post about the game development of Pokemon Rescue I explained how I decided on using GDevelop to quickly create a game for my daughter. The idea was to keep it simple&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kikketer.github.io/media/posts/8/PokemonGBCover.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cjweed.com/media/posts/8/PokemonGBCover.png" class="type:primaryImage" alt="" /></p>
                 <p>Moving from <a href="https://gdevelop-app.com/">GDevelop</a> to <a href="https://www.gbstudio.dev/">GB Studio</a> to and really gaining traction on the game development.</p>
 <h2>Moving to GBStudio</h2>
-<p>In my previous post about the game development of <a href="https://kikketer.github.io/pokemon-rescue-gdevelop/">Pokemon Rescue</a> I explained how I decided on using GDevelop to quickly create a game for my daughter. The idea was to keep it simple and force myself into a limited environment.</p>
+<p>In my previous post about the game development of <a href="https://cjweed.com/pokemon-rescue-gdevelop/">Pokemon Rescue</a> I explained how I decided on using GDevelop to quickly create a game for my daughter. The idea was to keep it simple and force myself into a limited environment.</p>
 <p>In today's realm of web and mobile technology, there's really no limit to what you can do. That can be entirely overwhelming for anyone learning something new, I've tried several times to build a video game using things like <a href="https://phaserjs.com/" target="_blank" rel="noopener noreferrer">PhaserJS</a>. However whenever I start a project like this I always get hung up for hours on the development environment, graphics and "what limits should I put on myself".</p>
 <p><a href="https://gdevelop-app.com/" target="_blank" rel="noopener noreferrer">GDevelop</a> opened my eyes to the "drag and drop IDEs" that have been built to create games. And my experience in GDevelop has been amazing. I was able to quickly create a small video game and focus on the fun stuff instead of useless little details that make me twitch like code formatting.</p>
 <p>Then I discovered <a href="https://www.gbstudio.dev/" target="_blank" rel="noopener noreferrer">GBStudio</a> that was geared for building games for GameBoy. This satisfied nearly the exact requirements I set for myself: simple, limited and playable on dedicated hardware. With that I decided to give GBStudio a real chance.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-drag-drop.webp" alt="GB Studio screenshot of the Pokemon Rescue game" width="658" height="497" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-xs.webp 640w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-sm.webp 768w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-md.webp 1024w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-lg.webp 1366w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-xl.webp 1600w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-2xl.webp 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/8/pokemon-rescue-gb-drag-drop.webp" alt="GB Studio screenshot of the Pokemon Rescue game" width="658" height="497" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-xs.webp 640w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-sm.webp 768w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-md.webp 1024w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-lg.webp 1366w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-xl.webp 1600w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-2xl.webp 1920w"></figure>
 <h2>Some Clear Progress</h2>
 <p>Within a few days (these are parent/adult days, where I only get to spare a few hours) I was able to get a game built out that mirrored the same functionality that I had in GDevelop!</p>
 <p>As I was building and adapting the game, I had to take into account a few more limitations that I think actually improved the game. This reminds me of the other things I'm studying around web accessibility: making a website accessible tends to make the site even better than you first imagined.</p>
 <p>I started by making sure I could do the more difficult requirement: "carry a creature from one space to another". Unlike what I built in GDevelop, I wasn't able to simply take a sprite and move it with the character. I had to create a "carrying" sprite for the player and show/hide the creature being carried. This actually turned out quite well and is exciting to see how it works.</p>
 <p>With this new "carrying" technique figured out I changed my initial plan to be more of a "pick up and carry" game vs a menu-driven game for each creature. This type of "just carry creatures around" aspect the game actually became much more fun. I'm still working out all the details but here are a few initial screens:</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-pickup.gif" alt="A pixelart character picking up a monster" width="300" height="272"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/8/pokemon-rescue-gb-pickup.gif" alt="A pixelart character picking up a monster" width="300" height="272"></figure>
 <h2>Development Experience in GBStudio</h2>
 <p>GBStudio a bit more buggy than GDevelop as there are several times when I attempt to use one of their more advanced features and it doesn't work as expected. There's not much feedback for the developer either as I've not yet found a "run in debug mode" type of thing. I've actually had to use in-game dialogs to debug what variables are set to.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-crazy-nest.webp" alt="A giant nested if check within GBStudio" width="485" height="616" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-xs.webp 640w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-sm.webp 768w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-md.webp 1024w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-lg.webp 1366w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-xl.webp 1600w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-2xl.webp 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/8/pokemon-rescue-gb-crazy-nest.webp" alt="A giant nested if check within GBStudio" width="485" height="616" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-xs.webp 640w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-sm.webp 768w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-md.webp 1024w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-lg.webp 1366w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-xl.webp 1600w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-2xl.webp 1920w"></figure>
 <p>The drag and drop nature of the IDE can feel a bit cumbersome at times as well especially when you are already a developer. A bug I've filed recently really makes my head hurt because of my ingrained knowledge of if checks.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-dialog-bug.webp" alt="GBStudio showing a bug found within the application" width="822" height="437" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-xs.webp 640w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-sm.webp 768w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-md.webp 1024w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-lg.webp 1366w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-xl.webp 1600w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-2xl.webp 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/8/pokemon-rescue-gb-dialog-bug.webp" alt="GBStudio showing a bug found within the application" width="822" height="437" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-xs.webp 640w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-sm.webp 768w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-md.webp 1024w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-lg.webp 1366w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-xl.webp 1600w ,https://cjweed.com/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-2xl.webp 1920w"></figure>
 <h2 id="abandoned">Abandoned</h2>
 <p>Updated Jan 1st 2022: I've walked away from GBStudio for now since there were some critical things that I was not able to do. The two major issues were:</p>
 <ol>
@@ -1092,23 +1092,23 @@ applinks:wtft.zone</code></pre>
         <author>
             <name>Chris</name>
         </author>
-        <link href="https://kikketer.github.io/pokemon-rescue-gdevelop/"/>
-        <id>https://kikketer.github.io/pokemon-rescue-gdevelop/</id>
-        <media:content url="https://kikketer.github.io/media/posts/7/PokemonGDevelop.png" medium="image" />
+        <link href="https://cjweed.com/pokemon-rescue-gdevelop/"/>
+        <id>https://cjweed.com/pokemon-rescue-gdevelop/</id>
+        <media:content url="https://cjweed.com/media/posts/7/PokemonGDevelop.png" medium="image" />
             <category term="videogame"/>
             <category term="learning"/>
 
         <updated>2021-12-23T09:59:00-06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kikketer.github.io/media/posts/7/PokemonGDevelop.png" alt="Pixelart image of a woman near a monster" />
+                        <img src="https://cjweed.com/media/posts/7/PokemonGDevelop.png" alt="Pixelart image of a woman near a monster" />
                     Building a video game that allows my daughter to do what she wants with Pokemon characters: Care for them. The idea is pretty simple for this video game: You run an animal rescue where you must care for the animals you accept and try to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kikketer.github.io/media/posts/7/PokemonGDevelop.png" class="type:primaryImage" alt="Pixelart image of a woman near a monster" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/7/pokemon-rescue-gdevelop.png" alt="A GDevelop screenshot of the code that looks like a spreadsheet" width="827" height="437" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/7/responsive/pokemon-rescue-gdevelop-xs.png 640w ,https://kikketer.github.io/media/posts/7/responsive/pokemon-rescue-gdevelop-sm.png 768w ,https://kikketer.github.io/media/posts/7/responsive/pokemon-rescue-gdevelop-md.png 1024w ,https://kikketer.github.io/media/posts/7/responsive/pokemon-rescue-gdevelop-lg.png 1366w ,https://kikketer.github.io/media/posts/7/responsive/pokemon-rescue-gdevelop-xl.png 1600w ,https://kikketer.github.io/media/posts/7/responsive/pokemon-rescue-gdevelop-2xl.png 1920w"></figure>
+                    <p><img src="https://cjweed.com/media/posts/7/PokemonGDevelop.png" class="type:primaryImage" alt="Pixelart image of a woman near a monster" /></p>
+                <figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/7/pokemon-rescue-gdevelop.png" alt="A GDevelop screenshot of the code that looks like a spreadsheet" width="827" height="437" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/7/responsive/pokemon-rescue-gdevelop-xs.png 640w ,https://cjweed.com/media/posts/7/responsive/pokemon-rescue-gdevelop-sm.png 768w ,https://cjweed.com/media/posts/7/responsive/pokemon-rescue-gdevelop-md.png 1024w ,https://cjweed.com/media/posts/7/responsive/pokemon-rescue-gdevelop-lg.png 1366w ,https://cjweed.com/media/posts/7/responsive/pokemon-rescue-gdevelop-xl.png 1600w ,https://cjweed.com/media/posts/7/responsive/pokemon-rescue-gdevelop-2xl.png 1920w"></figure>
 <p>Building a video game that allows my daughter to do what she wants with Pokemon characters: Care for them.</p>
 <h2>The Idea</h2>
 <p>The idea is pretty simple for this video game: You run an animal rescue where you must care for the animals you accept and try to get them adopted.</p>
@@ -1130,10 +1130,10 @@ applinks:wtft.zone</code></pre>
 <p><strong><a href="https://www.gbstudio.dev/" target="_blank" rel="noopener noreferrer">GB Studio</a></strong>. This may be my end goal. The idea that the dedicated hardware is a GameBoy is a fantastic fit! The game size is limited, graphics are simple and the tool looks easy to use and build. This will likely be where I port the game to after I get something built with GDevelop.</p>
 <h2>The Results</h2>
 <p>This game is far from complete and my goal is to have it done by the end of December 2021. It's been nice using GDevelop to be able to sit down for a few minutes and accomplish a feature.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/7/pokemon-rescue-clips-and-doors.gif" alt="An animation of a lady walking out of fenced area and approaching a monster" width="680" height="516"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/7/pokemon-rescue-clips-and-doors.gif" alt="An animation of a lady walking out of fenced area and approaching a monster" width="680" height="516"></figure>
 <p>Using standard repository features I was able to make sure this application was saved and had history in case things get knotted up.</p>
 <p>As I was building it I discovered GBStudio and had a few regrets that I didn't start there. But that's the purpose of a proof of concept, learn the environment and get a sense of the viability of this project.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/7/pokemon-rescue-drop-off.gif" alt="A pixelart character picking up a monster with a little menu system" width="680" height="516"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/7/pokemon-rescue-drop-off.gif" alt="A pixelart character picking up a monster with a little menu system" width="680" height="516"></figure>
 <p>My plan is to use GDevelop to create the game that satisfies the requirements I have above. My daughter should be able to play it on the iPad for now. Then I want to move it over to GB Studio and put it on a GameBoy using a re-programmable cartridge.</p>
 <p>Stay tuned! I'll be updating this or adding new posts as this project moves forward!</p>
             ]]>
@@ -1144,9 +1144,9 @@ applinks:wtft.zone</code></pre>
         <author>
             <name>Chris</name>
         </author>
-        <link href="https://kikketer.github.io/card-studio-application/"/>
-        <id>https://kikketer.github.io/card-studio-application/</id>
-        <media:content url="https://kikketer.github.io/media/posts/6/dragon-world.png" medium="image" />
+        <link href="https://cjweed.com/card-studio-application/"/>
+        <id>https://cjweed.com/card-studio-application/</id>
+        <media:content url="https://cjweed.com/media/posts/6/dragon-world.png" medium="image" />
             <category term="web"/>
             <category term="boardgame"/>
             <category term="application"/>
@@ -1154,17 +1154,17 @@ applinks:wtft.zone</code></pre>
         <updated>2020-06-21T09:40:00-05:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kikketer.github.io/media/posts/6/dragon-world.png" alt="" />
+                        <img src="https://cjweed.com/media/posts/6/dragon-world.png" alt="" />
                     I was helping my son create a new board game and was looking for an easy way to generate cards using CSV data. This is a small desktop (electron) app that kind of works. Repo There are many days where my son will attempt to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kikketer.github.io/media/posts/6/dragon-world.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cjweed.com/media/posts/6/dragon-world.png" class="type:primaryImage" alt="" /></p>
                 <p>I was helping my son create a new board game and was looking for an easy way to generate cards using CSV data. This is a small desktop (electron) app that kind of works.</p>
 <p><a href="https://github.com/Kikketer/CardStudio" target="_blank" rel="noopener noreferrer">Repo</a></p>
 <h2>Card Studio Idea</h2>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/6/card-studio-shot.png" alt="A card editing studio example" width="831" height="455" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/6/responsive/card-studio-shot-xs.png 640w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-shot-sm.png 768w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-shot-md.png 1024w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-shot-lg.png 1366w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-shot-xl.png 1600w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-shot-2xl.png 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/6/card-studio-shot.png" alt="A card editing studio example" width="831" height="455" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/6/responsive/card-studio-shot-xs.png 640w ,https://cjweed.com/media/posts/6/responsive/card-studio-shot-sm.png 768w ,https://cjweed.com/media/posts/6/responsive/card-studio-shot-md.png 1024w ,https://cjweed.com/media/posts/6/responsive/card-studio-shot-lg.png 1366w ,https://cjweed.com/media/posts/6/responsive/card-studio-shot-xl.png 1600w ,https://cjweed.com/media/posts/6/responsive/card-studio-shot-2xl.png 1920w"></figure>
 <p>There are many days where my son will attempt to build a board game. I love this since I've attempted this same thing many many times without much success (see <a href="#non-existing-post-with-id-4">Catapults Game</a>). He proposed this pretty fantastic and simple game based on his love for <a href="https://www.goodreads.com/series/92037-wings-of-fire" target="_blank" rel="noopener noreferrer">Wings of Fire</a>.</p>
 <p>During the creation of the game I wanted to have a way to quickly generate the playing cards. I know that <a href="https://www.thegamecrafter.com/" target="_blank" rel="noopener noreferrer">The Game Crafter</a> created an application called <a href="https://component.studio/" target="_blank" rel="noopener noreferrer">Component Studio</a> which serves the purpose of building game components. This product has a monthly fee and since I change projects nearly daily, it didn't make much sense financially.</p>
 <p>But I'm cheap and I like to build things. I decided to attempt to build a desktop version of the application with the intent that this is free, easy and gets the job done well enough.</p>
@@ -1186,7 +1186,7 @@ applinks:wtft.zone</code></pre>
 <li><a href="https://www.electronjs.org/" target="_blank" rel="noopener noreferrer">Electron</a>: The foundation to make your web application be a desktop application. This technique isn't new and is used by many applications today.</li>
 <li><a href="https://konvajs.org/" target="_blank" rel="noopener noreferrer">Konva</a>: A great canvas library that allows you to draw on an HTML canvas.</li>
 </ul>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/6/card-studio-drag-drop.gif" alt="Dragging and dropping items onto the card to create the design" width="680" height="514"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/6/card-studio-drag-drop.gif" alt="Dragging and dropping items onto the card to create the design" width="680" height="514"></figure>
 <h2>The "Conclusion"</h2>
 <p>I've since moved away from this project since new things have landed on my plate. The game did make it all the way to <a href="https://www.thegamecrafter.com/games/dragon-world" target="_blank" rel="noopener noreferrer">The Game Crafter</a> but didn't use Card Studio directly.</p>
 <p>I did however generate the cards used in the game using the same tools, I just didn't use the IDE that I was intending to build.</p>
@@ -1195,7 +1195,7 @@ applinks:wtft.zone</code></pre>
 <p>I had a couple ah-ha moments when I realized that I could use a standard mindset of a network API to generate the cards without having to view the page each time.</p>
 <p>Previous adventures in this type of thing required me to render the entire card on a visible HTML page to export it as a .png file. This involved an annoying process of having to click each card and then click a "download" button.</p>
 <p>The solution was to have the cards render on the "client" (renderer) but hidden and their base64 encoded result would be sent to the "backend" (main) of Electron. From there the file can be saved directly to the file system.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/6/card-studio-to-64.png" alt="A red box turned 45 degrees comparing to another" width="616" height="406" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/6/responsive/card-studio-to-64-xs.png 640w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-to-64-sm.png 768w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-to-64-md.png 1024w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-to-64-lg.png 1366w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-to-64-xl.png 1600w ,https://kikketer.github.io/media/posts/6/responsive/card-studio-to-64-2xl.png 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/6/card-studio-to-64.png" alt="A red box turned 45 degrees comparing to another" width="616" height="406" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/6/responsive/card-studio-to-64-xs.png 640w ,https://cjweed.com/media/posts/6/responsive/card-studio-to-64-sm.png 768w ,https://cjweed.com/media/posts/6/responsive/card-studio-to-64-md.png 1024w ,https://cjweed.com/media/posts/6/responsive/card-studio-to-64-lg.png 1366w ,https://cjweed.com/media/posts/6/responsive/card-studio-to-64-xl.png 1600w ,https://cjweed.com/media/posts/6/responsive/card-studio-to-64-2xl.png 1920w"></figure>
 <h2>The Future</h2>
 <p>I do plan to continue working on this fun project but I always need more inspiration. My kids are the source of all my inspiration and I'll likely come back to this project once my son decides to build yet another game.</p>
             ]]>
@@ -1206,22 +1206,22 @@ applinks:wtft.zone</code></pre>
         <author>
             <name>Chris</name>
         </author>
-        <link href="https://kikketer.github.io/catapults-3d-printed-game-2/"/>
-        <id>https://kikketer.github.io/catapults-3d-printed-game-2/</id>
-        <media:content url="https://kikketer.github.io/media/posts/5/catapults-overall-board.webp" medium="image" />
+        <link href="https://cjweed.com/catapults-3d-printed-game-2/"/>
+        <id>https://cjweed.com/catapults-3d-printed-game-2/</id>
+        <media:content url="https://cjweed.com/media/posts/5/catapults-overall-board.webp" medium="image" />
             <category term="boardgame"/>
             <category term="3dprinting"/>
 
         <updated>2019-05-19T09:30:00-05:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kikketer.github.io/media/posts/5/catapults-overall-board.webp" alt="Catapults Board Game Title" />
+                        <img src="https://cjweed.com/media/posts/5/catapults-overall-board.webp" alt="Catapults Board Game Title" />
                     Using the power of my 3D printers, I wanted to create a board game. Inspired by the NES game "Rampart" I created a fun little game that can mostly be created by anyone with a 3D printer. The Inspiration Inspired by an old NES game&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kikketer.github.io/media/posts/5/catapults-overall-board.webp" class="type:primaryImage" alt="Catapults Board Game Title" /></p>
+                    <p><img src="https://cjweed.com/media/posts/5/catapults-overall-board.webp" class="type:primaryImage" alt="Catapults Board Game Title" /></p>
                 <header class="header"></header><main id="main" class="main">
 <article class="post"><header class="post__header">
 <div class="post__details"><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Using the power of my 3D printers, I wanted to create a board game. Inspired by the NES game "</span><a href="https://en.wikipedia.org/wiki/Rampart_(video_game)" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Rampart</a><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">" I created a fun little game that can mostly be created by anyone with a 3D printer.</span></div>
@@ -1230,7 +1230,7 @@ applinks:wtft.zone</code></pre>
 <h2>The Inspiration</h2>
 <p>Inspired by an old NES game I wanted to use my newly <a href="https://www.prusa3d.com/category/original-prusa-i3-mk3s/">purchased 3D printer</a> and combine it with one of my passions: board game design.</p>
 <p>The original game was similar to Tetris where you'd received random shaped pieces and use them to build a complete castle.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/5/catapults-nes-original.webp" alt="Video game screen showing top down castles with catapults within them" width="640" height="480" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/5/responsive/catapults-nes-original-xs.webp 640w ,https://kikketer.github.io/media/posts/5/responsive/catapults-nes-original-sm.webp 768w ,https://kikketer.github.io/media/posts/5/responsive/catapults-nes-original-md.webp 1024w ,https://kikketer.github.io/media/posts/5/responsive/catapults-nes-original-lg.webp 1366w ,https://kikketer.github.io/media/posts/5/responsive/catapults-nes-original-xl.webp 1600w ,https://kikketer.github.io/media/posts/5/responsive/catapults-nes-original-2xl.webp 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/5/catapults-nes-original.webp" alt="Video game screen showing top down castles with catapults within them" width="640" height="480" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/5/responsive/catapults-nes-original-xs.webp 640w ,https://cjweed.com/media/posts/5/responsive/catapults-nes-original-sm.webp 768w ,https://cjweed.com/media/posts/5/responsive/catapults-nes-original-md.webp 1024w ,https://cjweed.com/media/posts/5/responsive/catapults-nes-original-lg.webp 1366w ,https://cjweed.com/media/posts/5/responsive/catapults-nes-original-xl.webp 1600w ,https://cjweed.com/media/posts/5/responsive/catapults-nes-original-2xl.webp 1920w"></figure>
 <p>Once your castle was complete you'd be gain a number of cannons and had to find places for them within the castle walls.</p>
 <p>Both characters would then start launching cannon balls at the opposing players castle, attempting to wreck their castle for the next round of building.</p>
 <p>Players would play about three rounds and the player with the most cannons at the end was the winner.</p>
@@ -1240,21 +1240,21 @@ applinks:wtft.zone</code></pre>
 <p>First challenge I wanted to solve was the hectic feel of getting the random pieces.</p>
 <p>"Hectic" is an easy solve by having a timer. Players hate being rushed into decisions and this matched the original game since it had a timer around placing pieces of your castle. A simple sand timer was the solution.</p>
 <p>For the random pieces aspect I used a deck of cards. Cards are the cheapest part of any board game and are incredibly versatile. Each player would get a small deck of cards to draw from in the "build" phase using the timer.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/5/catapults-deck.webp" alt="Two cards showing wall shapes" width="1569" height="1255" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/5/responsive/catapults-deck-xs.webp 640w ,https://kikketer.github.io/media/posts/5/responsive/catapults-deck-sm.webp 768w ,https://kikketer.github.io/media/posts/5/responsive/catapults-deck-md.webp 1024w ,https://kikketer.github.io/media/posts/5/responsive/catapults-deck-lg.webp 1366w ,https://kikketer.github.io/media/posts/5/responsive/catapults-deck-xl.webp 1600w ,https://kikketer.github.io/media/posts/5/responsive/catapults-deck-2xl.webp 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/5/catapults-deck.webp" alt="Two cards showing wall shapes" width="1569" height="1255" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/5/responsive/catapults-deck-xs.webp 640w ,https://cjweed.com/media/posts/5/responsive/catapults-deck-sm.webp 768w ,https://cjweed.com/media/posts/5/responsive/catapults-deck-md.webp 1024w ,https://cjweed.com/media/posts/5/responsive/catapults-deck-lg.webp 1366w ,https://cjweed.com/media/posts/5/responsive/catapults-deck-xl.webp 1600w ,https://cjweed.com/media/posts/5/responsive/catapults-deck-2xl.webp 1920w"></figure>
 <p>The second challenge was how to benefit the players for building a complete castle with these cards and pieces (see designing pieces next). I didn't want this game to be a "dexterity game" where you are physically throwing pieces around to see if they hit, that always ends up feeling cheep and is a mess.</p>
 <p>A simple solution was to re-use the deck of cards that you played to build your castle as a number system for the sizes of pieces you could remove. This left the player with bit of choice but restricted them based on how many pieces they were able to place within the build phase.</p>
 <p>Ok that was pretty easy, the two biggest challenges were out of the way... mostly. I still wanted to use the 3D printer and having it create the castle wall pieces made the most sense.</p>
 <h2>Designing the Components</h2>
 <p>For designing the 3D printed components I exclusively used <a href="https://www.tinkercad.com/">Tinkercad</a>. It's incredibly easy to build simple shapes and it fit my "just get it done" attitude.</p>
 <p>By trial and error I was able to get a piece that not only printed without supports by using arches but allowed for enough gap to be placed quickly on a board.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/5/catapults-pieces.webp" alt="3D Designed wall pieces" width="559" height="299" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/5/responsive/catapults-pieces-xs.webp 640w ,https://kikketer.github.io/media/posts/5/responsive/catapults-pieces-sm.webp 768w ,https://kikketer.github.io/media/posts/5/responsive/catapults-pieces-md.webp 1024w ,https://kikketer.github.io/media/posts/5/responsive/catapults-pieces-lg.webp 1366w ,https://kikketer.github.io/media/posts/5/responsive/catapults-pieces-xl.webp 1600w ,https://kikketer.github.io/media/posts/5/responsive/catapults-pieces-2xl.webp 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/5/catapults-pieces.webp" alt="3D Designed wall pieces" width="559" height="299" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/5/responsive/catapults-pieces-xs.webp 640w ,https://cjweed.com/media/posts/5/responsive/catapults-pieces-sm.webp 768w ,https://cjweed.com/media/posts/5/responsive/catapults-pieces-md.webp 1024w ,https://cjweed.com/media/posts/5/responsive/catapults-pieces-lg.webp 1366w ,https://cjweed.com/media/posts/5/responsive/catapults-pieces-xl.webp 1600w ,https://cjweed.com/media/posts/5/responsive/catapults-pieces-2xl.webp 1920w"></figure>
 <p>The board! Yes there needed to be a board, similar to a lego where the pieces would click into place but would be easier to place than an official LEGO style piece.</p>
 <p>I came up with a reasonable sized board that was a grid of raised squares. The pieces were Tetris shaped pieces with little "grab" handles on the top that kind of almost looked like a <a href="https://en.wikipedia.org/wiki/Battlement">battlement</a>.</p>
 <p>I then made sure that each piece shape was a different color to allow grabbing of the pieces to be quick. We all know what it's like getting the "L" or "J" piece mixed up when playing Tetris.</p>
 <h2>Printing</h2>
 <p>I used <a href="https://www.thegamecrafter.com/">The Game Crafter</a> to print the box, cards, rules and provide the timer. The plan was to get these boxes printed then fill them with the 3D printed walls.</p>
 <p>I ordered a pile of colored filament and started printing away. I even ordered a backup printer as I was afraid the first was going to fail, the side effect was that I was able to double production.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/5/catapults-castle-example.webp" alt="A topdown view of the final printed pieces" width="1000" height="814" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/5/responsive/catapults-castle-example-xs.webp 640w ,https://kikketer.github.io/media/posts/5/responsive/catapults-castle-example-sm.webp 768w ,https://kikketer.github.io/media/posts/5/responsive/catapults-castle-example-md.webp 1024w ,https://kikketer.github.io/media/posts/5/responsive/catapults-castle-example-lg.webp 1366w ,https://kikketer.github.io/media/posts/5/responsive/catapults-castle-example-xl.webp 1600w ,https://kikketer.github.io/media/posts/5/responsive/catapults-castle-example-2xl.webp 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/5/catapults-castle-example.webp" alt="A topdown view of the final printed pieces" width="1000" height="814" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/5/responsive/catapults-castle-example-xs.webp 640w ,https://cjweed.com/media/posts/5/responsive/catapults-castle-example-sm.webp 768w ,https://cjweed.com/media/posts/5/responsive/catapults-castle-example-md.webp 1024w ,https://cjweed.com/media/posts/5/responsive/catapults-castle-example-lg.webp 1366w ,https://cjweed.com/media/posts/5/responsive/catapults-castle-example-xl.webp 1600w ,https://cjweed.com/media/posts/5/responsive/catapults-castle-example-2xl.webp 1920w"></figure>
 <p>In the end I printed about 15 sets of pieces and bagged them all ready for their boxes.</p>
 <h2>Proposing to Publishers</h2>
 <p>I was able to propose this game to publishers during a "speed dating" style event at GenCon. I was chosen after submitting my one-page rundown of the game and since I was heading down there to play games, it was perfect timing.</p>
