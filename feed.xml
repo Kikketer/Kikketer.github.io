@@ -3,7 +3,7 @@
     <title>Chris Weed</title>
     <link href="https://cjweed.com/feed.xml" rel="self" />
     <link href="https://cjweed.com" />
-    <updated>2025-02-23T19:53:56-06:00</updated>
+    <updated>2025-02-24T15:24:58-06:00</updated>
     <author>
         <name>Chris</name>
     </author>
@@ -62,6 +62,19 @@
   <li><a href="#known-issues">Known Issues</a></li>
   <li><a href="#credits-and-references">Credits and References</a></li>
 </ul></div>
+
+    <h2 id="overall-flow">
+      Overall Flow
+    </h2>
+
+  <p>
+    Here's a rough overview of what we are about to do. Supabase acts as the middle-person that allows us to get a Supabase Authentication token using Google. Basically the user is able to authenticate to your Supabase app using their Google auth. The real trick is getting the OS to launch the Capacitor native app vs the web page (using Universal Links).
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cjweed.com/media/posts/3/AuthFlow.webp" height="450" width="651" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://cjweed.com/media/posts/3/responsive/AuthFlow-xs.webp 640w ,https://cjweed.com/media/posts/3/responsive/AuthFlow-sm.webp 768w ,https://cjweed.com/media/posts/3/responsive/AuthFlow-md.webp 1024w ,https://cjweed.com/media/posts/3/responsive/AuthFlow-lg.webp 1366w ,https://cjweed.com/media/posts/3/responsive/AuthFlow-xl.webp 1600w ,https://cjweed.com/media/posts/3/responsive/AuthFlow-2xl.webp 1920w">
+      
+    </figure>
 
     <h2 id="baseline-ionic-web-application">
       Baseline Ionic Web Application
