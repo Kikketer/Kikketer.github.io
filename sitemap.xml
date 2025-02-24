@@ -5,6 +5,30 @@
 <loc>https://kikketer.github.io/</loc>
 </url>
 <url>
+<loc>https://kikketer.github.io/pokemon-rescue-gbstudio/</loc>
+<lastmod>2025-02-23T11:41:11-06:00</lastmod>
+<image:image>
+<image:loc>https://kikketer.github.io/media/posts/8/PokemonGBCover.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-drag-drop.webp</image:loc>
+<image:title><![CDATA[GB Studio screenshot of the Pokemon Rescue game]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-pickup.gif</image:loc>
+<image:title><![CDATA[A pixelart character picking up a monster]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-crazy-nest.webp</image:loc>
+<image:title><![CDATA[A giant nested if check within GBStudio]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-dialog-bug.webp</image:loc>
+<image:title><![CDATA[GBStudio showing a bug found within the application]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://kikketer.github.io/test-page/</loc>
 <lastmod>2025-02-15T14:09:31-06:00</lastmod>
 <image:image>

@@ -3,10 +3,65 @@
     <title>Chris Weed</title>
     <link href="https://kikketer.github.io/feed.xml" rel="self" />
     <link href="https://kikketer.github.io" />
-    <updated>1969-12-31T18:00:00-06:00</updated>
+    <updated>2025-02-23T11:41:11-06:00</updated>
     <author>
         <name>Chris</name>
     </author>
     <id>https://kikketer.github.io</id>
 
+    <entry>
+        <title>Pokemon Rescue - GBStudio</title>
+        <author>
+            <name>Chris</name>
+        </author>
+        <link href="https://kikketer.github.io/pokemon-rescue-gbstudio/"/>
+        <id>https://kikketer.github.io/pokemon-rescue-gbstudio/</id>
+        <media:content url="https://kikketer.github.io/media/posts/8/PokemonGBCover.png" medium="image" />
+            <category term="videogame"/>
+            <category term="learning"/>
+
+        <updated>2021-12-26T11:14:00-06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kikketer.github.io/media/posts/8/PokemonGBCover.png" alt="" />
+                    Moving from GDevelop to GB Studio to and really gaining traction on the game development. In my previous post about the game development of Pokemon Rescue I explained how I decided on using GDevelop to quickly create a game for my daughter. The idea was to keep it simple&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kikketer.github.io/media/posts/8/PokemonGBCover.png" class="type:primaryImage" alt="" /></p>
+                <p>Moving from <a href="https://gdevelop-app.com/">GDevelop</a> to <a href="https://www.gbstudio.dev/">GB Studio</a> to and really gaining traction on the game development.</p>
+<h2>Moving to GBStudio</h2>
+<p>In my previous post about the game development of <a href="#non-existing-post-with-id-7">Pokemon Rescue</a> I explained how I decided on using GDevelop to quickly create a game for my daughter. The idea was to keep it simple and force myself into a limited environment.</p>
+<p>In today's realm of web and mobile technology, there's really no limit to what you can do. That can be entirely overwhelming for anyone learning something new, I've tried several times to build a video game using things like <a href="https://phaserjs.com/" target="_blank" rel="noopener noreferrer">PhaserJS</a>. However whenever I start a project like this I always get hung up for hours on the development environment, graphics and "what limits should I put on myself".</p>
+<p><a href="https://gdevelop-app.com/" target="_blank" rel="noopener noreferrer">GDevelop</a> opened my eyes to the "drag and drop IDEs" that have been built to create games. And my experience in GDevelop has been amazing. I was able to quickly create a small video game and focus on the fun stuff instead of useless little details that make me twitch like code formatting.</p>
+<p>Then I discovered <a href="https://www.gbstudio.dev/" target="_blank" rel="noopener noreferrer">GBStudio</a> that was geared for building games for GameBoy. This satisfied nearly the exact requirements I set for myself: simple, limited and playable on dedicated hardware. With that I decided to give GBStudio a real chance.</p>
+<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-drag-drop.webp" alt="GB Studio screenshot of the Pokemon Rescue game" width="658" height="497" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-xs.webp 640w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-sm.webp 768w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-md.webp 1024w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-lg.webp 1366w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-xl.webp 1600w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-drag-drop-2xl.webp 1920w"></figure>
+<h2>Some Clear Progress</h2>
+<p>Within a few days (these are parent/adult days, where I only get to spare a few hours) I was able to get a game built out that mirrored the same functionality that I had in GDevelop!</p>
+<p>As I was building and adapting the game, I had to take into account a few more limitations that I think actually improved the game. This reminds me of the other things I'm studying around web accessibility: making a website accessible tends to make the site even better than you first imagined.</p>
+<p>I started by making sure I could do the more difficult requirement: "carry a creature from one space to another". Unlike what I built in GDevelop, I wasn't able to simply take a sprite and move it with the character. I had to create a "carrying" sprite for the player and show/hide the creature being carried. This actually turned out quite well and is exciting to see how it works.</p>
+<p>With this new "carrying" technique figured out I changed my initial plan to be more of a "pick up and carry" game vs a menu-driven game for each creature. This type of "just carry creatures around" aspect the game actually became much more fun. I'm still working out all the details but here are a few initial screens:</p>
+<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-pickup.gif" alt="A pixelart character picking up a monster" width="300" height="272"></figure>
+<h2>Development Experience in GBStudio</h2>
+<p>GBStudio a bit more buggy than GDevelop as there are several times when I attempt to use one of their more advanced features and it doesn't work as expected. There's not much feedback for the developer either as I've not yet found a "run in debug mode" type of thing. I've actually had to use in-game dialogs to debug what variables are set to.</p>
+<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-crazy-nest.webp" alt="A giant nested if check within GBStudio" width="485" height="616" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-xs.webp 640w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-sm.webp 768w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-md.webp 1024w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-lg.webp 1366w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-xl.webp 1600w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-crazy-nest-2xl.webp 1920w"></figure>
+<p>The drag and drop nature of the IDE can feel a bit cumbersome at times as well especially when you are already a developer. A bug I've filed recently really makes my head hurt because of my ingrained knowledge of if checks.</p>
+<figure class="post__image"><img loading="lazy"  src="https://kikketer.github.io/media/posts/8/pokemon-rescue-gb-dialog-bug.webp" alt="GBStudio showing a bug found within the application" width="822" height="437" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-xs.webp 640w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-sm.webp 768w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-md.webp 1024w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-lg.webp 1366w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-xl.webp 1600w ,https://kikketer.github.io/media/posts/8/responsive/pokemon-rescue-gb-dialog-bug-2xl.webp 1920w"></figure>
+<h2 id="abandoned">Abandoned</h2>
+<p>Updated Jan 1st 2022: I've walked away from GBStudio for now since there were some critical things that I was not able to do. The two major issues were:</p>
+<ol>
+<li>Performance issues around movement</li>
+<li>Update for each critter paused when off screen</li>
+</ol>
+<p>For the "performance issues around movement", I had the critters move one space at a time using a random number (1-4 one for each direction). The problem wasn't so much that the random number was slowing things down, it was the actual movement. I found that while a critter was moving the entire game slowed dramatically. My goal was to have 10 critters at a time, but the game was unplayable at 4.</p>
+<figure class="post__video"><video loading="lazy" width="600" height="300" controls="controls" data-mce-fragment="1">
+<source src="../media/files/pokemon-gb-move-performance.mp4" type="video/mp4" /></video></figure>
+<p>The "update offscreen" issue comes from an inherent GB performance necessity to keep the game running smoothly. The onUpdate logic was great, each critter had it's own bit of code to run to add or subtract it's health and happiness on a timer. Simply walking far enough away from a critter would allow it to live and be happy forever. I want the constant "oh better go check on X critter" feeling in my game.</p>
+<p>A suggested solution was to make a single actor, always visible that maintained all of the other critters. But the way GBStudio is built you can not access "internal" variables for an actor from a separate actor. This means I would have to have all the health and happiness of each actor tracked in individual global variables.</p>
+<p>All of these limitations are fantastic to have when attempting to build something. I loved that GBStudio forced me to re-evaluate the actual game itself and made the game simpler and more fun at the same time. The GDevelop version had a whole menu system to pet, pick up and feed the critters which now feels very clunky and annoying. GBStudio forced me to make it a simple "pick up a critter and place it where it needs to be" game.</p>
+<p>I've updated GDevelop version to remove the menu but now I'm going to try and build this game using <a href="https://arcade.makecode.com/" target="_blank" rel="noopener noreferrer">MakeCode Arcade</a> because it has the ability to use dedicated <a href="https://www.amazon.com/Kittenbot-Card-Sized-Computer-Microsoft-Compatible/dp/B07XSWXPZL/ref=sr_1_1_sspa" target="_blank" rel="noopener noreferrer">external hardware</a> very similar to the GameBoy. I'll be posting my adventure with that platform next.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
