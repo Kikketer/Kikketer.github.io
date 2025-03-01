@@ -3,7 +3,7 @@
     <title>Chris Weed</title>
     <link href="https://cjweed.com/feed.xml" rel="self" />
     <link href="https://cjweed.com" />
-    <updated>2025-02-25T18:35:01-06:00</updated>
+    <updated>2025-02-28T23:21:08-06:00</updated>
     <author>
         <name>Chris</name>
     </author>
@@ -1003,7 +1003,97 @@ applinks:wtft.zone</code></pre>
 <pre class="line-numbers  language-jsx"><code>"sync": "VITE_BASE_URL=https://wtft.zone pnpm run build && pnpm exec cap sync",</code></pre>
 
   <p>
-    That command is run via `pnpm run sync` which will set the environment variable for the base url, build the application then sync it to the native app. Then all you need to do is re-run the native app in Xcode.
+    Back at our app we need to actually handle this Universal/Deep Link as well.&nbsp; Capacitor gives us a hook to be able to listen to the event that the native app was launched via a Deep Link.
+  </p>
+
+  <p>
+    Create a component called DeepLinkHandler.tsx:
+  </p>
+
+  <p class="filename">
+    components/DeepLinkHandler.tsx
+  </p>
+<pre class="line-numbers  language-jsx"><code>// https://capacitorjs.com/docs/guides/deep-links#react
+import { useEffect } from 'react'
+import { useHistory } from 'react-router-dom'
+import { App, URLOpenListenerEvent } from '@capacitor/app'
+import { useSupabase } from './SupabaseProvider'
+
+export const DeepLinkHandler = () =&gt; {
+  let history = useHistory()
+  const { supabase } = useSupabase()
+
+  useEffect(() =&gt; {
+    App.addListener('appUrlOpen', (_event: URLOpenListenerEvent) =&gt; {
+      // We get the access_token and potentially the refresh_token from the url:
+      const url = new URL(_event.url)
+      const params: Record&lt;string, string&gt; | undefined = url.hash
+        ?.substring(1)
+        ?.split('&')
+        ?.reduce((acc: Record&lt;string, string&gt;, s) =&gt; {
+          acc[s.split('=')[0]] = s.split('=')[1]
+          return acc
+        }, {})
+
+      const access_token = params?.['access_token'] ?? ''
+      const refresh_token = params?.['refresh_token'] ?? ''
+
+      // Only sign in if we got an accessToken with this request
+      if (access_token) {
+        supabase.auth.setSession({ access_token, refresh_token })
+      }
+
+      // Dive deep into the app if we have a specific place we were told to go:
+      const slug = url.pathname
+      history.push(slug)
+    })
+  }, [])
+
+  return null
+}
+</code></pre>
+
+  <p>
+    This code will add the listener for the deep links within the Capacitor app and place the resulting auth tokens to set the session. Once this is set in Supabase we are officially authenticated to Supabase!
+  </p>
+
+  <p>
+    Your app structure should now look like this:
+  </p>
+<pre class="line-numbers  language-jsx"><code>/app
+.env.local
+  /src
+  App.tsx
+  main.tsx
+    /components
+      DeepLinkHandler.tsx
+      DebugComponent.tsx
+      LoginComponent.tsx
+    /pages
+      Home.tsx
+      LoggedIn.tsx</code></pre>
+
+  <p>
+    We just need to add this to the App file so that it runs when the application starts up:
+  </p>
+
+  <p class="filename">
+    App.tsx
+  </p>
+<pre class="line-numbers  language-jsx"><code>///... previous code
+const App: React.FC = () =&gt; (
+  &lt;IonApp&gt;
+    &lt;SupabaseProvider&gt;
+      &lt;IonReactRouter&gt;
+        &lt;DeepLinkHandler /&gt; &lt;&lt; Adding this within the Router
+        &lt;IonRouterOutlet&gt;
+          &lt;Route exact path="/home"&gt;
+            &lt;Home /&gt;
+          &lt;/Route&gt;
+/// ... previous code</code></pre>
+
+  <p>
+    After this addition we can build and sync the application `pnpm run sync` which will set the environment variable for the base url, build the application then sync it to the native app. Then all you need to do is re-run the native app in Xcode.
   </p>
 
     <figure class="post__image post__image--center">
