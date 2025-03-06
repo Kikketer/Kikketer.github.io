@@ -3,7 +3,7 @@
     <title>Chris Weed</title>
     <link href="https://cjweed.com/feed.xml" rel="self" />
     <link href="https://cjweed.com" />
-    <updated>2025-02-28T23:21:08-06:00</updated>
+    <updated>2025-03-06T16:39:37-06:00</updated>
     <author>
         <name>Chris</name>
     </author>
@@ -1124,6 +1124,22 @@ const App: React.FC = () =&gt; (
   <ul>
     <li>There are some browsers that will not launch the native apps using Universal Links. Orion and Brave are two that I know of. That should/would account for a tiny percentage of the population but it's difficult/tricky to know if the user is unable to use your native app because they will simply land on a working page on the web instead of the app.</li><li>This only works with the "prompt: 'confirm'" option in the Google provider options. It appears that Universal Links do not trigger and load the native app if it's from a redirect. So the extra step process of the confirm windows in the browser allow the Universal Link to work properly.&nbsp;</li>
   </ul>
+
+    <h2 id="next-steps">
+      Next Steps
+    </h2>
+
+  <p>
+    With the known issues of the different browsers I'm expanding this tutorial to handle the in-app browser experience. This update will require some changes to the code that handle some native-device specifics. The goal of this post was to see how we can add auth without making any specific changes like that.
+  </p>
+
+  <p>
+    I would recommend looking at the next post to add the in-app browser experience if you plan to make any of these things production ready. The in-app experience is more inline with the typical process of a true native app and guarantees that the redirect works since it's using the internal browser (Safari in this case).
+  </p>
+
+  <p>
+    Stay tuned!
+  </p>
 
     <h2 id="credits-and-references">
       Credits and References
