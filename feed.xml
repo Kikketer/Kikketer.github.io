@@ -3,12 +3,179 @@
     <title>Chris Weed</title>
     <link href="https://cjweed.com/feed.xml" rel="self" />
     <link href="https://cjweed.com" />
-    <updated>2025-03-06T16:39:37-06:00</updated>
+    <updated>2025-03-12T14:45:46-05:00</updated>
     <author>
         <name>Chris</name>
     </author>
     <id>https://cjweed.com</id>
 
+    <entry>
+        <title>Capacitor + Supabase + Social Auth + React In-App </title>
+        <author>
+            <name>Chris</name>
+        </author>
+        <link href="https://cjweed.com/capacitor-supabase-react/"/>
+        <id>https://cjweed.com/capacitor-supabase-react/</id>
+        <media:content url="https://cjweed.com/media/posts/13/AllTheThings.png" medium="image" />
+            <category term="web"/>
+            <category term="tutorial"/>
+            <category term="learning"/>
+
+        <updated>2025-03-06T16:40:56-06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cjweed.com/media/posts/13/AllTheThings.png" alt="Supabase, Capacitor, Google and Safari logos" />
+                    In my previous, extremely long tutorial post I walked you through how to get a simple React app to use Supabase Social authentication to work within a Capacitor app. Phew that was a lot of name dropping sorry. This post will be much much shorter,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cjweed.com/media/posts/13/AllTheThings.png" class="type:primaryImage" alt="Supabase, Capacitor, Google and Safari logos" /></p>
+                <p>In my <a href="https://cjweed.com/capacitor-supabase-social-auth-react/">previous, extremely long tutorial</a> post I walked you through how to get a simple React app to use Supabase Social authentication to work within a Capacitor app. Phew that was a lot of name dropping sorry.</p>
+<p>This post will be much much shorter, the goal in this second part is to explain how to extend upon the work we previously did to use the in-app browser experience. The in-app browser the best way to use the social logins as it gives the "normal" experience users expect when logging in this way but more critically it does not depend on the users default browser.</p>
+<h2>Setup</h2>
+<p>If you followed along with the <a href="https://cjweed.com/capacitor-supabase-social-auth-react/">previous post</a> you should have a reasonably working native application that can use Google auth flow to authenticate with Supabase. Once you have that working (be sure to have Safari as your default browser) you should be able to get started here.</p>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/13/app-starting-point.gif" alt="A native app authenticating with Google and redirecting back to the app." width="320" height="619"><figcaption>A good start but depends on the default browser which can be problematic</figcaption></figure>
+<p>The three problems we have:</p>
+<ol>
+<li>It depends on the current default browser, this could be something like Brave or Orion which do not support deep links (at least as of this writing and in this situation)</li>
+<li>It doesn't feel "normal" for a user using your native app to bounce out of the app for authentication.</li>
+<li>The page that you authenticated with remains there in the browser, the user might get confused or just feel your app is sloppy when it leaves a trail like that.</li>
+</ol>
+<h2>Prevent Redirect</h2>
+<p>The first thing we need to do is stop Supabase from automatically launching the browser when running the sign in code.  Let's do this by adding the <a href="https://supabase.com/docs/reference/javascript/auth-signinwithotp" target="_blank" rel="noopener noreferrer">lightly documented</a> prop called <code>skipBrowserRedirect</code> to the <code>signInWithOauth</code> call</p>
+<p class="filename">components/LoginComponent.tsx</p>
+<pre class="language-javascript line-numbers"><code>const login = () =&gt; {
+  supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: {
+      redirectTo: `${baseUrl}/logged`,
++     // Skip the Browser Redirect to manually open the browser
++     skipBrowserRedirect: true,
+      queryParams: {
+        access_type: 'offline',
+        prompt: 'consent',
+      },
+    },
+  })
+}</code></pre>
+<div>
+<p>With that addition we no longer automatically launch the browser when the user attempts to log in with this method. We have to do that manually now, but because we do it manually we have some control on how we launch that browser.</p>
+<p>And with that we can now use the "in app browser".</p>
+<h2>In App Browser</h2>
+<p>The In-App Browser uses the built in browser engine of the devices which means it's consistent regardless of what other browser is set as the default. This also helps us use things we are know supported by these browsers, in this case Deep Linking.</p>
+<p>To open an in-app browser in Capacitor we will use the documentation they have provided: <a href="https://capacitorjs.com/docs/apis/browser" target="_blank" rel="noopener noreferrer">https://capacitorjs.com/docs/apis/browser</a>. Notice that this <span style="text-decoration: underline;">isn't</span> the seemingly better named "<a href="https://capacitorjs.com/docs/apis/inappbrowser" target="_blank" rel="noopener noreferrer">in app</a>" browser version 🤷.</p>
+<pre class="language-bash line-numbers"><code>pnpm i @capactior/browser</code></pre>
+<p>And let's create a new component to handle the details of this browser experience. Notice that we are no longer just writing code for a web app, we are now leaning into some of the nice things that Capacitor gives us and is able to adapt automatically based on the environment it lives in.</p>
+<p class="">nativeBrowser.ts</p>
+<pre class="language-typescript line-numbers"><code>import { Capacitor } from '@capacitor/core'
+import { Browser } from '@capacitor/browser'
+
+export const openBrowser = async (url: string) =&gt; {
+  // Open the browser only if we are on a native platform (in-app)
+  if (Capacitor.isNativePlatform()) {
+    await Browser.open({
+      url,
+      presentationStyle: 'popover',
+    })
+  } else {
+    window.location.href = url
+  }
+}
+
+export const closeBrowser = async () =&gt; {
+  if (Capacitor.isNativePlatform()) {
+    await Browser.close()
+  }
+}
+</code></pre>
+<p>Notice how we have to check if we are in a native platform or web. If we are in a native environment we want to trigger this new Browser.open function call so we can designate how that experience should look.</p>
+<p>Now back at our LoginComponent we want to trigger the openBrowser function call manually to get the authentication flow kicked off.</p>
+<p class="filename">components/LoginComponent.tsx</p>
+<pre class="language-typescript line-numbers"><code>  const login = async () =&gt; {
++   const { data, error } = await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: {
+        redirectTo: `${baseUrl}/logged`,
+        // Skip the Browser Redirect to manually open the browser
+        skipBrowserRedirect: true,
+        queryParams: {
+          access_type: 'offline',
+          prompt: 'consent',
+        },
+      },
+    })
+
++   if (error) {
++     console.error(error)
++     return
++   }
+
++   await openBrowser(data.url)
+  }</code></pre>
+<p>Obviously we could do something different with the error handling, but for now this is an example. The key is that we manually open the browser now and depending if we are in a native environment or standard browser we handle it slightly differently.</p>
+<p>If you attempt to use the app now you'll notice that the in-app browser works and it looks nice except it sticks open.  So close!</p>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/13/out-2025-03-11_20-44-14.gif" alt="Logging in with Google authentication but the browser window stays open" width="400" height="774"><figcaption>The browser is staying open, you need to manually close it.</figcaption></figure>
+<h2>Closing the Browser</h2>
+<p>If you test this out now you'll notice that the browser just hangs open after you authenticate. Luckily we have a function (we already wrote) to close that browser and thus we just need to call that on the redirect page we built in the first post.</p>
+<p>We know that we are redirected to the <code>/logged</code> page when we authenticate, so we could brute force the browser closed by saying 'when that page is loaded, close the external browser if there is one'. That could be done with code like this:</p>
+<p class="filename">components/LoggedIn.tsx</p>
+<pre class="language-typescript line-numbers"><code>+ import { closeBrowser } from '../nativeBrowser'
+
+export const LoggedIn = () =&gt; {
+  const history = useHistory()
+  const { supabase } = useSupabase()
+
++  useEffect(() =&gt; {
++    closeBrowser().catch(() =&gt; {
++      // nom nom nom
++    })
++  }, [])
+
+....
+// rest of the component</code></pre>
+<p>This would simply close the browser when this component is rendered. This would of course be kind of poor form if we wanted to use this page for anything else or if we landed on this page not from the result of logging in.</p>
+<p>So a better way to handle this would be to move that logic to the SupabaseProvider we've created in the previous post. Here we can listen for authentication state changes and do some logic based on the "logged in" state.</p>
+<p class="filename">components/SupabaseProvider.tsx</p>
+<pre class="language-typescript line-numbers"><code>export const SupabaseProvider: FC&lt;SupabaseProviderProps&gt; = ({ children }) =&gt; {
+  const [supabase] = useState&lt;SupabaseClient&gt;(() =&gt;
+    createClient(supabaseUrl, supabaseKey),
+  )
+
++  useEffect(() =&gt; {
++    const { data: authListener } = supabase.auth.onAuthStateChange(
++      (event, session) =&gt; {
++        if (event === 'SIGNED_IN' &amp;&amp; session?.user) {
++          closeBrowser().catch(() =&gt; {
++            // nom nom nom
++          })
++        }
++      },
++    )
+
++    // Cleanup the listener on unmount
++    return () =&gt; {
++      authListener?.subscription.unsubscribe()
++    }
++ }, [])
+
+...// The rest of the component</code></pre>
+<p>This will listen for the events emitted from the supabase auth and do logic based on that. In our case we simply want to close the browser but you could also expand this to saving the user you get back.</p>
+<p>If you use the SupabaseProvider change make sure to remove the LoggedIn.tsx change.</p>
+<p>Congrats you can now test the application login and it'll have the standard in-app browser experience that users are expecting.</p>
+<figure class="post__image"><img loading="lazy"  src="https://cjweed.com/media/posts/13/out-2025-03-11_21-10-00.gif" alt="Logging into a native application with Google and the in-app browser closes" width="400" height="774"><figcaption>The in-app browser now closes automatically when we log in</figcaption></figure>
+<h2>Conclusion</h2>
+<p>Congrats on getting this far! The goal of this post was to make the example app a bit more "natural" feeling but unfortunately it required the first step of "if native do X" type of checking.</p>
+<p>I like to try and keep the code I write the same across all devices, similar to not having to use specific CSS selectors or other varieties of things that are browser specific in web development. This is a nessissary evil and by abstracting it away into the <code>nativeBrowser.tsx</code> component it's at least nicer to look at and use across the app.</p>
+<p>This only leaves one last downfall:</p>
+<ul>
+<li>You must use the "consent" variety of authentication.</li>
+</ul>
+<p>I haven't yet seen the auth flow work properly even in the in-app experience if you don't use the consent flow (slower, more windows for people to click through). Maybe in the future I'll add yet more native-specific code so we can skip those screens. For now this is good enough for me and doesn't feel too janky to the user.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Capacitor + Supabase + Social Auth + React</title>
         <author>

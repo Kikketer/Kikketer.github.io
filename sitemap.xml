@@ -14,10 +14,22 @@
 </url>
 <url>
 <loc>https://cjweed.com/capacitor-supabase-react/</loc>
-<lastmod>2025-03-08T09:15:46-06:00</lastmod>
+<lastmod>2025-03-12T14:45:46-05:00</lastmod>
+<image:image>
+<image:loc>https://cjweed.com/media/posts/13/AllTheThings.png</image:loc>
+<image:title><![CDATA[Supabase, Capacitor, Google and Safari logos]]></image:title>
+</image:image>
 <image:image>
 <image:loc>https://cjweed.com/media/posts/13/app-starting-point.gif</image:loc>
 <image:title><![CDATA[A native app authenticating with Google and redirecting back to the app.]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://cjweed.com/media/posts/13/out-2025-03-11_20-44-14.gif</image:loc>
+<image:title><![CDATA[Logging in with Google authentication but the browser window stays open]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://cjweed.com/media/posts/13/out-2025-03-11_21-10-00.gif</image:loc>
+<image:title><![CDATA[Logging into a native application with Google and the in-app browser closes]]></image:title>
 </image:image>
 </url>
 <url>
