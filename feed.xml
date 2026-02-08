@@ -22,7 +22,7 @@
             <category term="learning"/>
 
         <updated>2025-03-06T16:40:56-06:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://cjweed.com/media/posts/13/AllTheThings.png" alt="Supabase, Capacitor, Google and Safari logos" />
                     In my previous, extremely long tutorial post I walked you through how to get a simple React app to use Supabase Social authentication to work within a Capacitor app. Phew that was a lot of name dropping sorry. This post will be much much shorter,&hellip;
@@ -189,7 +189,7 @@ export const LoggedIn = () =&gt; {
             <category term="learning"/>
 
         <updated>2025-02-22T09:14:07-06:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://cjweed.com/media/posts/3/Supa.png" alt="Supabase, Capacitor, Google Logos" />
                     I've been building an application to help with a summer job I've had for a couple years which involves line painting. The app is intended to help painters predict when a field needs to be painted, I decided to take the opportunity to create a&hellip;
@@ -1330,7 +1330,7 @@ const App: React.FC = () =&gt; (
             <category term="learning"/>
 
         <updated>2022-11-06T14:12:00-06:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://cjweed.com/media/posts/2/SCR-20250225-pbvz.png" alt="A pixelart video game made in MakeCode Arcade with Pokemon" />
                     This is the 3rd in a series of the Pokemon Rescue game, this time I decided to use MakeCode Arcade to build it. Given the struggles I had with GBStudio and GDevelop I thought I could give this platform a try, the biggest draws were&hellip;
@@ -1387,7 +1387,7 @@ const App: React.FC = () =&gt; (
             <category term="learning"/>
 
         <updated>2021-12-26T11:14:00-06:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://cjweed.com/media/posts/8/PokemonGBCover.png" alt="" />
                     Moving from GDevelop to GB Studio to and really gaining traction on the game development. In my previous post about the game development of Pokemon Rescue I explained how I decided on using GDevelop to quickly create a game for my daughter. The idea was to keep it simple&hellip;
@@ -1442,7 +1442,7 @@ const App: React.FC = () =&gt; (
             <category term="learning"/>
 
         <updated>2021-12-23T09:59:00-06:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://cjweed.com/media/posts/7/PokemonGDevelop.png" alt="Pixelart image of a woman near a monster" />
                     Building a video game that allows my daughter to do what she wants with Pokemon characters: Care for them. The idea is pretty simple for this video game: You run an animal rescue where you must care for the animals you accept and try to&hellip;
@@ -1495,7 +1495,7 @@ const App: React.FC = () =&gt; (
             <category term="application"/>
 
         <updated>2020-06-21T09:40:00-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://cjweed.com/media/posts/6/dragon-world.png" alt="" />
                     I was helping my son create a new board game and was looking for an easy way to generate cards using CSV data. This is a small desktop (electron) app that kind of works. Repo There are many days where my son will attempt to&hellip;
@@ -1556,7 +1556,7 @@ const App: React.FC = () =&gt; (
             <category term="3dprinting"/>
 
         <updated>2019-05-19T09:30:00-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://cjweed.com/media/posts/5/catapults-overall-board.webp" alt="Catapults Board Game Title" />
                     Using the power of my 3D printers, I wanted to create a board game. Inspired by the NES game "Rampart" I created a fun little game that can mostly be created by anyone with a 3D printer. The Inspiration Inspired by an old NES game&hellip;
